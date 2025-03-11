@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 202.5
+    x: 258.5
     y: 266.5
     width: 1271
     height: 679
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_MinSize: {x: 50, y: 150}
   m_MaxSize: {x: 4000, y: 8050}
   vertical: 1
-  controlID: 23
+  controlID: 76
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
