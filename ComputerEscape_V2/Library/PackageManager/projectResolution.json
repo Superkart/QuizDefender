@@ -64,6 +64,14 @@
       "version": "1.3.3",
       "source": "registry"
     },
+    "com.unity.multiplayer.samples.coop@https://github.com/Unity-Technologies/com.unity.multiplayer.samples.coop.git?path=/Packages/com.unity.multiplayer.samples.coop#main": {
+      "name": "com.unity.multiplayer.samples.coop",
+      "resolvedPath": "D:\\UICSem2\\GameDevAndDesign\\Assignments\\Assignment4\\cs426_Ragi_Karthik_Asgn4\\ComputerEscape_V2\\Library\\PackageCache\\com.unity.multiplayer.samples.coop",
+      "fingerprint": "7c13e96a1c5dcd5ab6bb36c37a44d6fc733cea2a",
+      "editorCompatibility": "2020.3.0a1",
+      "version": "1.9.0",
+      "source": "git"
+    },
     "com.unity.netcode.gameobjects@2.2.0": {
       "name": "com.unity.netcode.gameobjects",
       "resolvedPath": "D:\\UICSem2\\GameDevAndDesign\\Assignments\\Assignment4\\cs426_Ragi_Karthik_Asgn4\\ComputerEscape_V2\\Library\\PackageCache\\com.unity.netcode.gameobjects",
@@ -404,6 +412,22 @@
       "version": "1.11.4",
       "source": "registry"
     },
+    "com.unity.learn.iet-framework@4.0.3": {
+      "name": "com.unity.learn.iet-framework",
+      "resolvedPath": "D:\\UICSem2\\GameDevAndDesign\\Assignments\\Assignment4\\cs426_Ragi_Karthik_Asgn4\\ComputerEscape_V2\\Library\\PackageCache\\com.unity.learn.iet-framework",
+      "fingerprint": "4e5c5e4eeff965973ca34c642339fc083445c8fc",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "4.0.3",
+      "source": "registry"
+    },
+    "com.unity.multiplayer.tools@2.2.1": {
+      "name": "com.unity.multiplayer.tools",
+      "resolvedPath": "D:\\UICSem2\\GameDevAndDesign\\Assignments\\Assignment4\\cs426_Ragi_Karthik_Asgn4\\ComputerEscape_V2\\Library\\PackageCache\\com.unity.multiplayer.tools",
+      "fingerprint": "212d83b66f830476aafd30cff2797a3a0ae2ea64",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "2.2.1",
+      "source": "registry"
+    },
     "com.unity.collections@2.5.1": {
       "name": "com.unity.collections",
       "resolvedPath": "D:\\UICSem2\\GameDevAndDesign\\Assignments\\Assignment4\\cs426_Ragi_Karthik_Asgn4\\ComputerEscape_V2\\Library\\PackageCache\\com.unity.collections",
@@ -443,6 +467,30 @@
       "editorCompatibility": "2023.3.0b1",
       "version": "1.0.1",
       "source": "builtin"
+    },
+    "com.unity.profiling.core@1.0.2": {
+      "name": "com.unity.profiling.core",
+      "resolvedPath": "D:\\UICSem2\\GameDevAndDesign\\Assignments\\Assignment4\\cs426_Ragi_Karthik_Asgn4\\ComputerEscape_V2\\Library\\PackageCache\\com.unity.profiling.core",
+      "fingerprint": "aac7b93912bc5df5fe06b04ff1b758493cdc2346",
+      "editorCompatibility": "2020.1.0a1",
+      "version": "1.0.2",
+      "source": "registry"
+    },
+    "com.unity.editorcoroutines@1.0.0": {
+      "name": "com.unity.editorcoroutines",
+      "resolvedPath": "D:\\UICSem2\\GameDevAndDesign\\Assignments\\Assignment4\\cs426_Ragi_Karthik_Asgn4\\ComputerEscape_V2\\Library\\PackageCache\\com.unity.editorcoroutines",
+      "fingerprint": "7d48783e7b8cfcee5f8ef9ba787ed0d9dad4ebca",
+      "editorCompatibility": "2018.1.0a1",
+      "version": "1.0.0",
+      "source": "registry"
+    },
+    "com.unity.settings-manager@2.0.1": {
+      "name": "com.unity.settings-manager",
+      "resolvedPath": "D:\\UICSem2\\GameDevAndDesign\\Assignments\\Assignment4\\cs426_Ragi_Karthik_Asgn4\\ComputerEscape_V2\\Library\\PackageCache\\com.unity.settings-manager",
+      "fingerprint": "56a930affa1e4462d3595b5c19a1c2a4bf2015d2",
+      "editorCompatibility": "2018.4.0a1",
+      "version": "2.0.1",
+      "source": "registry"
     },
     "com.unity.test-framework.performance@3.0.3": {
       "name": "com.unity.test-framework.performance",

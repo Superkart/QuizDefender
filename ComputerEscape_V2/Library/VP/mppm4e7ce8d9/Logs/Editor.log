@@ -1,0 +1,1193 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to the License Client on channel: "LicenseClient-karth" at "2025-03-11T06:49:30.279848Z"
+[Licensing::Client] Error: Code 10 while verifying Licensing Client signature (process Id: 2948, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] Error: LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.16.2+bdef8f5
+  Session Id:              d2a989657fa44c0ca1f2706942aab718
+  Correlation Id:          4aa386324eeaa8c3b11f82460ebb886f
+  External correlation Id: 6047984457959652952
+  Machine Id:              u/wTCxTNXGcVposxFDeMKWiQZrk=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-karth" (connect: 0.00s, validation: 0.01s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to the License Notification on channel: "LicenseClient-karth-notifications" at "2025-03-11T06:49:30.337366Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully updated license
+Built from '6000.0/staging' branch; Version is '6000.0.34f1 (5ab2d9ed9190) revision 5944025'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16108 MB
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Serial number assigned to: "13469130093152-UnityPersXXXX"
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1, IsPro: 0
+[Licensing::Client] Successfully resolved entitlement details
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.34f1\Editor\Unity.exe
+-editor-mode
+com.unity.mppm.clone
+-no-cloud-project-bind-popup
+-noLaunchScreen
+-library-redirect
+../..
+-readonly
+-noUpm
+-upmRestorePackages
+-name
+Player 2
+-projectPath
+D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\VP\mppm4e7ce8d9
+--virtual-project-clone
+-forgetProjectPath
+-library-redirect
+../..
+-readonly
+-DisableDirectoryMonitor
+-noUpm
+-upmRestorePackages
+-noMainWindow
+-suppressDefaultMenuEntries
+-logFile
+D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\VP\mppm4e7ce8d9\Logs\Editor.log
+-vp-channel-name=vp-channel
+-ump-channel-service-port
+64551
+-mainProcessId=21432
+-vpId=mppm4e7ce8d9
+-buildTarget
+StandaloneWindows64
+-standaloneBuildSubtarget
+Player
+Successfully changed project path to: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\VP\mppm4e7ce8d9
+D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Library/VP/mppm4e7ce8d9
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18172]  Target information:
+
+Player connection [18172]  * "[IP] 10.0.0.117 [Port] 55505 [Flags] 2 [Guid] 1438563051 [EditorId] 1438563051 [Version] 1048832 [Id] WindowsEditor(7,RagisLegion) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18172] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18172] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: ../../
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 70 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.5 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.ai.navigation)
+    com.unity.collab-proxy@2.7.1 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.collab-proxy)
+    com.unity.ide.rider@3.0.31 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.ide.rider)
+    com.unity.ide.visualstudio@2.0.22 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.ide.visualstudio)
+    com.unity.inputsystem@1.11.2 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.inputsystem)
+    com.unity.multiplayer.playmode@1.3.3 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.multiplayer.playmode)
+    com.unity.netcode.gameobjects@2.2.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.netcode.gameobjects)
+    com.unity.services.relay@1.0.5 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.services.relay)
+    com.unity.test-framework@1.4.5 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.test-framework)
+    com.unity.timeline@1.8.7 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.timeline)
+    com.unity.visualscripting@1.9.5 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.visualscripting)
+    com.unity.ext.nunit@2.0.5 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.ext.nunit)
+    com.unity.transport@2.4.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.transport)
+    com.unity.services.qos@1.3.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.services.qos)
+    com.unity.services.core@1.14.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.services.core)
+    com.unity.nuget.newtonsoft-json@3.2.1 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.nuget.newtonsoft-json)
+    com.unity.services.authentication@3.4.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.services.authentication)
+    com.unity.nuget.mono-cecil@1.11.4 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.nuget.mono-cecil)
+    com.unity.learn.iet-framework@4.0.3 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.learn.iet-framework)
+    com.unity.multiplayer.tools@2.2.1 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.multiplayer.tools)
+    com.unity.collections@2.5.1 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.collections)
+    com.unity.burst@1.8.18 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.burst)
+    com.unity.mathematics@1.3.2 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.mathematics)
+    com.unity.searcher@4.9.2 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.searcher)
+    com.unity.profiling.core@1.0.2 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.profiling.core)
+    com.unity.editorcoroutines@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.editorcoroutines)
+    com.unity.settings-manager@2.0.1 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.settings-manager)
+    com.unity.test-framework.performance@3.0.3 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.test-framework.performance)
+  Built-in packages:
+    com.unity.multiplayer.center@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.multiplayer.center)
+    com.unity.render-pipelines.universal@17.0.3 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.render-pipelines.universal)
+    com.unity.ugui@2.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.ugui)
+    com.unity.modules.accessibility@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.ai@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.screencapture@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vehicles@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.vr@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.vr)
+    com.unity.modules.wind@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.render-pipelines.core@17.0.3 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.render-pipelines.core)
+    com.unity.shadergraph@17.0.3 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.shadergraph)
+    com.unity.render-pipelines.universal-config@17.0.3 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.render-pipelines.universal-config)
+    com.unity.rendering.light-transport@1.0.1 (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.rendering.light-transport)
+  Git packages:
+    com.unity.multiplayer.samples.coop@https://github.com/Unity-Technologies/com.unity.multiplayer.samples.coop.git?path=/Packages/com.unity.multiplayer.samples.coop#main (location: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.multiplayer.samples.coop)
+[Package Manager] com.unity.services.relay is deprecated: The Relay package is deprecated and will not receive further updates. The SDK is now part of the unified Multiplayer Services package (com.unity.services.multiplayer). Migrate to that package to access ongoing support and improvements.
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Subsystems] No new subsystems found in resolved package list.
+Package Manager log level set to [2]
+[Package Manager] Done registering packages in 0.16 seconds
+Targeting platform: StandaloneWindows64
+Refreshing native plugins compatible for Editor in 3.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.34f1 (5ab2d9ed9190)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Library/VP/mppm4e7ce8d9/Assets
+kGfxThreadingModeSplitJobs is not supported on Direct3D 11. Reverting to kGfxThreadingModeThreaded instead.
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.7260
+[Licensing::Client] Successfully resolved entitlement details
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56688
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.031170 seconds.
+- Loaded All Assemblies, in  0.469 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.583 seconds
+Domain Reload Profiling: 1051ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (173ms)
+		LoadAssemblies (143ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (167ms)
+				TypeCache.ScanAssembly (151ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (584ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (529ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (213ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (156ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.158 seconds
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractive': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveTransparent': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveMasked': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree8_PBRLit': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree9_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/StencilDeferred': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'Universal Render Pipeline/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Particles/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Shader Graphs/Decal': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.565 seconds
+Domain Reload Profiling: 6720ms
+	BeginReloadAssembly (257ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (67ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (799ms)
+		LoadAssemblies (455ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (453ms)
+			TypeCache.Refresh (250ms)
+				TypeCache.ScanAssembly (227ms)
+			BuildScriptInfoCaches (187ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (5565ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5293ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (69ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (200ms)
+			ProcessInitializeOnLoadAttributes (4518ms)
+			ProcessInitializeOnLoadMethodAttributes (493ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Asset Pipeline Refresh (id=47f61ef7273309641b3cdc6eadfa629d): Total: 7.803 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=6549 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1251 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=1798, non-scripts=2454
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.003ms
+	ApplyChangesToAssetFolders: 0.403ms
+	CategorizeAssets: 77.139ms
+	ImportOutOfDateAssets: 5579.612ms (5574.714ms without children)
+		CompileScripts: 1.809ms
+		ReloadNativeAssets: 0.024ms
+		UnloadImportedAssets: 1.375ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.951ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 0.738ms
+	Hotreload: 3.126ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.001ms
+	UnloadStreamsBegin: 1.631ms
+	UnloadStreamsEnd: 0.001ms
+	GenerateScriptTypeHashes: 7.008ms
+	Untracked: 2140.762ms
+
+Application.AssetDatabase Initial Refresh End
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Universal Render Pipeline/Baked Lit': fallback shader 'Universal Render Pipeline/Unlit' not found
+Scanning for USB devices : 3.909ms
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-ComputerEscape_V2
+[MODES] Loading editor mode Multiplayer Playmode Clone (1) from command line.
+Unloading 70 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8043 unused Assets / (12.5 MB). Loaded Objects now: 8669.
+Memory consumption went from 250.6 MB to 238.1 MB.
+Total: 17.102700 ms (FindLiveObjects: 0.582100 ms CreateObjectMapping: 0.426700 ms MarkObjects: 8.065600 ms  DeleteObjects: 8.027100 ms)
+
+IsTimeToCheckForNewEditor: Update time 1741675681 current 1741675783
+[Project] Loading completed in 12.865 seconds
+	Project init time: 				10.745 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.000 seconds
+		Asset Database init time: 		0.322 seconds
+		Global illumination init time: 	0.002 seconds
+		Assemblies load time: 			1.067 seconds
+		Unity extensions init time: 	0.065 seconds
+		Asset Database refresh time: 	7.803 seconds
+	Scene opening time: 			0.318 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1741675783111,"processId":16688,"projectLoad":12.8654458,"projectInit":10.745182,"templateInit":0.0,"packageManagerInit":5e-7,"assetDatabaseInit":0.3217355,"globalIlluminationInit":0.0022693,"assembliesLoad":1.0674102,"unityExtensionsInit":0.0649643,"assetDatabaseRefresh":7.8028393,"sceneOpening":0.3181274}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1741675783111,"processId":16688,"editorVersion":"6000.0.34f1 (5ab2d9ed9190)","branch":"6000.0/staging","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=a778b184e4f6a1f4299cbbcc7e008329): Total: 0.947 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=947 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1798, non-scripts=2454
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.395ms
+	CategorizeAssets: 86.868ms
+	ImportOutOfDateAssets: 1.322ms (0.347ms without children)
+		ReloadNativeAssets: 0.022ms
+		UnloadImportedAssets: 0.001ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.514ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.438ms
+	Hotreload: 1.436ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.230ms
+	UnloadStreamsBegin: 2.103ms
+	UnloadStreamsEnd: 0.002ms
+	Untracked: 855.083ms
+
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Reloading assemblies due to reload request.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Android Extension - Scanning For ADB Devices 389 ms
+- Loaded All Assemblies, in  1.886 seconds
+Refreshing native plugins compatible for Editor in 4.43 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-ComputerEscape_V2
+[MODES] Loading editor mode Multiplayer Playmode Clone (1) from command line.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.138 seconds
+Domain Reload Profiling: 4027ms
+	BeginReloadAssembly (773ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (51ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (520ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (1001ms)
+		LoadAssemblies (572ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (551ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (516ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (2138ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1707ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (106ms)
+			SetLoadedEditorAssemblies (37ms)
+			BeforeProcessingInitializeOnLoad (729ms)
+			ProcessInitializeOnLoadAttributes (509ms)
+			ProcessInitializeOnLoadMethodAttributes (321ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Asset Pipeline Refresh (id=2de651a678bbad746ab0ff099631f083): Total: 5.265 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=3351 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1911 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=1798, non-scripts=2454
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.005ms
+	ApplyChangesToAssetFolders: 0.558ms
+	CategorizeAssets: 137.797ms
+	ImportOutOfDateAssets: 2160.293ms (2150.165ms without children)
+		CompileScripts: 2.038ms
+		CollectScriptTypesHashes: 4.557ms
+		ReloadNativeAssets: 1.580ms
+		UnloadImportedAssets: 0.244ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.246ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 0.462ms
+	Hotreload: 2.347ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.222ms
+	UnloadStreamsBegin: 0.123ms
+	UnloadStreamsEnd: 0.002ms
+	GenerateScriptTypeHashes: 8.224ms
+	Untracked: 2963.361ms
+
+EditorUpdateCheck: Failed Cert verify failed. Certificate has expired. UnityTls error code: 7
+Created GICache directory at C:/Users/karth/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.012s, timestamps: [12.872 - 12.883]
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+Loading style catalogs (8)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/dark.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/dark.uss
+	Packages/com.unity.timeline/Editor/StyleSheets/Extensions/dark.uss
+	Packages/com.unity.timeline/Editor/StyleSheets/Extensions/common.uss
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initializing input.
+Using Windows.Gaming.Input
+<RI> Input initialized.
+Opening scene 'Assets/Scenes/KarthikRagi.unity'
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/KarthikRagi.unity'
+	Deserialize:            49.924 ms
+	Integration:            426.912 ms
+	Integration of assets:  8.852 ms
+	Thread Wait Time:       0.062 ms
+	Total Operation Time:   485.751 ms
+Unloading 7958 unused Assets / (2.7 MB). Loaded Objects now: 9027.
+Memory consumption went from 295.3 MB to 292.6 MB.
+Total: 25.783700 ms (FindLiveObjects: 0.699800 ms CreateObjectMapping: 0.397000 ms MarkObjects: 21.227200 ms  DeleteObjects: 3.458600 ms)
+
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "Z-XTiFRM"... (expires: 2026-03-11T06:49:53Z)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+UPID Received '08929c5f-9f66-4dcd-8e89-0ad4d88af31e'.
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+UPID Received '08929c5f-9f66-4dcd-8e89-0ad4d88af31e'.
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.837 seconds
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-ComputerEscape_V2
+[MODES] Loading editor mode Multiplayer Playmode Clone (1) from command line.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.203 seconds
+Domain Reload Profiling: 4042ms
+	BeginReloadAssembly (895ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (61ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (589ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (830ms)
+		LoadAssemblies (494ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (469ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (435ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (2204ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1273ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (58ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (318ms)
+			ProcessInitializeOnLoadAttributes (628ms)
+			ProcessInitializeOnLoadMethodAttributes (253ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (331ms)
+Asset Pipeline Refresh (id=48822ec665b90394d9fb4fdfc49a86db): Total: 5.053 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=3197 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1853 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=1798, non-scripts=2454
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.004ms
+	ApplyChangesToAssetFolders: 0.476ms
+	CategorizeAssets: 133.294ms
+	ImportOutOfDateAssets: 2216.196ms (2209.985ms without children)
+		CompileScripts: 1.821ms
+		CollectScriptTypesHashes: 1.065ms
+		ReloadNativeAssets: 1.746ms
+		UnloadImportedAssets: 0.105ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.019ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 0.453ms
+	Hotreload: 3.460ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.186ms
+	UnloadStreamsBegin: 1.783ms
+	UnloadStreamsEnd: 0.002ms
+	GenerateScriptTypeHashes: 5.638ms
+	Untracked: 2697.940ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            7.014 ms
+	Integration:            490.586 ms
+	Integration of assets:  0.037 ms
+	Thread Wait Time:       4.244 ms
+	Total Operation Time:   501.880 ms
+Asset Pipeline Refresh (id=d7e8694f1afeae948837edf76974f03d): Total: 0.758 seconds - Initiated by RefreshV2(ForceUpdate)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=758 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1798, non-scripts=2454
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.753ms
+	CategorizeAssets: 107.629ms
+	ImportOutOfDateAssets: 1.495ms (0.334ms without children)
+		ReloadNativeAssets: 0.034ms
+		UnloadImportedAssets: 0.001ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.521ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.605ms
+	Hotreload: 2.775ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.282ms
+	UnloadStreamsBegin: 0.016ms
+	UnloadStreamsEnd: 0.002ms
+	Untracked: 645.211ms
+
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+TrimDiskCacheJob: Current cache size 2mb
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+✅ Client Joined Party.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NetworkManagerUI/<StartClientRelay>d__11:MoveNext () (at D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/NetworkManagerUI.cs:61)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<Unity.Services.Relay.Models.JoinAllocation>:TrySetResult (Unity.Services.Relay.Models.JoinAllocation)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Unity.Services.Relay.Models.JoinAllocation>:SetResult (Unity.Services.Relay.Models.JoinAllocation)
+Unity.Services.Relay.WrappedRelayService/<JoinAllocationAsync>d__8:MoveNext () (at ./Library/PackageCache/com.unity.services.relay/Runtime/SDK/WrappedRelayService.cs:173)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<Unity.Services.Relay.Response`1<Unity.Services.Relay.Models.JoinResponseBody>>:TrySetResult (Unity.Services.Relay.Response`1<Unity.Services.Relay.Models.JoinResponseBody>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Unity.Services.Relay.Response`1<Unity.Services.Relay.Models.JoinResponseBody>>:SetResult (Unity.Services.Relay.Response`1<Unity.Services.Relay.Models.JoinResponseBody>)
+Unity.Services.Relay.Apis.RelayAllocations.RelayAllocationsApiClient/<JoinRelayAsync>d__9:MoveNext () (at ./Library/PackageCache/com.unity.services.relay/Runtime/Apis/RelayAllocationsApi.cs:187)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<Unity.Services.Relay.Http.HttpClientResponse>:TrySetResult (Unity.Services.Relay.Http.HttpClientResponse)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Unity.Services.Relay.Http.HttpClientResponse>:SetResult (Unity.Services.Relay.Http.HttpClientResponse)
+Unity.Services.Relay.Http.HttpClient/<MakeRequestAsync>d__1:MoveNext () (at ./Library/PackageCache/com.unity.services.relay/Runtime/Http/HttpClient.cs:41)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<Unity.Services.Relay.Http.HttpClientResponse>:TrySetResult (Unity.Services.Relay.Http.HttpClientResponse)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Unity.Services.Relay.Http.HttpClientResponse>:SetResult (Unity.Services.Relay.Http.HttpClientResponse)
+Unity.Services.Relay.Http.HttpClient/<CreateWebRequestAsync>d__3:MoveNext () (at ./Library/PackageCache/com.unity.services.relay/Runtime/Http/HttpClient.cs:56)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<Unity.Services.Relay.Http.HttpClientResponse>:TrySetResult (Unity.Services.Relay.Http.HttpClientResponse)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Unity.Services.Relay.Http.HttpClientResponse>:SetResult (Unity.Services.Relay.Http.HttpClientResponse)
+Unity.Services.Relay.Http.HttpClient/<CreateHttpClientResponse>d__4:MoveNext () (at ./Library/PackageCache/com.unity.services.relay/Runtime/Http/HttpClient.cs:84)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<Unity.Services.Relay.Http.HttpClientResponse>:TrySetResult (Unity.Services.Relay.Http.HttpClientResponse)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Unity.Services.Relay.Http.HttpClientResponse>:SetResult (Unity.Services.Relay.Http.HttpClientResponse)
+Unity.Services.Relay.Http.HttpClient/<>c__DisplayClass4_0/<<CreateHttpClientResponse>b__0>d:MoveNext () (at ./Library/PackageCache/com.unity.services.relay/Runtime/Http/HttpClient.cs:81)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<Unity.Services.Relay.Http.HttpClientResponse>:TrySetResult (Unity.Services.Relay.Http.HttpClientResponse)
+System.Threading.Tasks.TaskCompletionSource`1<Unity.Services.Relay.Http.HttpClientResponse>:TrySetResult (Unity.Services.Relay.Http.HttpClientResponse)
+System.Threading.Tasks.TaskCompletionSource`1<Unity.Services.Relay.Http.HttpClientResponse>:SetResult (Unity.Services.Relay.Http.HttpClientResponse)
+Unity.Services.Relay.Http.UnityWebRequestHelpers/<>c__DisplayClass0_0:<GetAwaiter>b__0 (UnityEngine.AsyncOperation) (at ./Library/PackageCache/com.unity.services.relay/Runtime/Http/UnityWebRequestHelpers.cs:34)
+UnityEngine.AsyncOperation:InvokeCompletionEvent ()
+
+(Filename: D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/NetworkManagerUI.cs Line: 61)
+
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+❌ GameTimerManager running on CLIENT.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GameTimerManager:OnNetworkSpawn () (at D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/GameTimerManager.cs:66)
+Unity.Netcode.NetworkBehaviour:VisibleOnNetworkSpawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkBehaviour.cs:750)
+Unity.Netcode.NetworkObject:InvokeBehaviourNetworkSpawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkObject.cs:2402)
+Unity.Netcode.NetworkSpawnManager:SpawnNetworkObjectLocallyCommon (Unity.Netcode.NetworkObject,ulong,bool,bool,ulong,bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Spawning/NetworkSpawnManager.cs:1164)
+Unity.Netcode.NetworkSpawnManager:SpawnNetworkObjectLocally (Unity.Netcode.NetworkObject,Unity.Netcode.NetworkObject/SceneObject&,bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Spawning/NetworkSpawnManager.cs:1089)
+Unity.Netcode.NetworkObject:AddSceneObject (Unity.Netcode.NetworkObject/SceneObject&,Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkManager,bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkObject.cs:3104)
+Unity.Netcode.SceneEventData:SynchronizeSceneNetworkObjects (Unity.Netcode.NetworkManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/SceneManagement/SceneEventData.cs:1119)
+Unity.Netcode.NetworkSceneManager:HandleClientSceneEvent (uint) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/SceneManagement/NetworkSceneManager.cs:2358)
+Unity.Netcode.NetworkSceneManager:ClientLoadedSynchronization (uint) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/SceneManagement/NetworkSceneManager.cs:2253)
+Unity.Netcode.NetworkSceneManager:OnClientBeginSync (uint) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/SceneManagement/NetworkSceneManager.cs:2175)
+Unity.Netcode.NetworkSceneManager:HandleClientSceneEvent (uint) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/SceneManagement/NetworkSceneManager.cs:2340)
+Unity.Netcode.NetworkSceneManager:HandleSceneEvent (ulong,Unity.Netcode.FastBufferReader) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/SceneManagement/NetworkSceneManager.cs:2734)
+Unity.Netcode.SceneEventMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/SceneEventMessage.cs:29)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.SceneEventMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:563)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:422)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:448)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkManager.cs:332)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkUpdateLoop.cs:191)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkUpdateLoop.cs:214)
+
+(Filename: D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/GameTimerManager.cs Line: 66)
+
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+✅ Movement enabled for Player 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerMovement:EnableMovementClientRpc () (at D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/PlayerMovement.cs:43)
+PlayerMovement:__rpc_handler_1940410643 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/RpcMessages.cs:75)
+Unity.Netcode.ClientRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/RpcMessages.cs:168)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ClientRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:563)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:422)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:448)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkManager.cs:332)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkUpdateLoop.cs:191)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkUpdateLoop.cs:214)
+
+(Filename: D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/PlayerMovement.cs Line: 43)
+
+✅ Movement enabled for Player 0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerMovement:EnableMovementClientRpc () (at D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/PlayerMovement.cs:43)
+PlayerMovement:__rpc_handler_1940410643 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/RpcMessages.cs:75)
+Unity.Netcode.ClientRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/RpcMessages.cs:168)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ClientRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:563)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:422)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:448)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkManager.cs:332)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkUpdateLoop.cs:191)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkUpdateLoop.cs:214)
+
+(Filename: D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/PlayerMovement.cs Line: 43)
+
+✅ Movement enabled for Player 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerMovement:EnableMovementClientRpc () (at D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/PlayerMovement.cs:43)
+PlayerMovement:__rpc_handler_1940410643 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/RpcMessages.cs:75)
+Unity.Netcode.ClientRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/RpcMessages.cs:168)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ClientRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:563)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:422)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:448)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkManager.cs:332)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkUpdateLoop.cs:191)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkUpdateLoop.cs:214)
+
+(Filename: D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/PlayerMovement.cs Line: 43)
+
+✅ Movement enabled for Player 0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerMovement:EnableMovementClientRpc () (at D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/PlayerMovement.cs:43)
+PlayerMovement:__rpc_handler_1940410643 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/RpcMessages.cs:75)
+Unity.Netcode.ClientRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/RpcMessages.cs:168)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ClientRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:563)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:422)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:448)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkManager.cs:332)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkUpdateLoop.cs:191)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkUpdateLoop.cs:214)
+
+(Filename: D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/PlayerMovement.cs Line: 43)
+
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+✅ Player 1 collided with B
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerController:OnTriggerEnter (UnityEngine.Collider) (at D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/PlayerController.cs:53)
+
+(Filename: D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/PlayerController.cs Line: 53)
+
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+✅ Player 1 collided with C
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerController:OnTriggerEnter (UnityEngine.Collider) (at D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/PlayerController.cs:53)
+
+(Filename: D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/PlayerController.cs Line: 53)
+
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+✅ Player 1 collided with B
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerController:OnTriggerEnter (UnityEngine.Collider) (at D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/PlayerController.cs:53)
+
+(Filename: D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/PlayerController.cs Line: 53)
+
+✅ Player 1 collided with A
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerController:OnTriggerEnter (UnityEngine.Collider) (at D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/PlayerController.cs:53)
+
+(Filename: D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/PlayerController.cs Line: 53)
+
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+✅ Player 1 collided with B
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerController:OnTriggerEnter (UnityEngine.Collider) (at D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/PlayerController.cs:53)
+
+(Filename: D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/PlayerController.cs Line: 53)
+
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+✅ Player 1 collided with D
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerController:OnTriggerEnter (UnityEngine.Collider) (at D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/PlayerController.cs:53)
+
+(Filename: D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/PlayerController.cs Line: 53)
+
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+✅ Player 1 collided with D
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerController:OnTriggerEnter (UnityEngine.Collider) (at D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/PlayerController.cs:53)
+
+(Filename: D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/PlayerController.cs Line: 53)
+
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 14)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 14)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 14)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 13)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 13)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 13)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 13)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 13)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 13)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 12)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 12)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 12)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 11)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 11)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 11)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 11)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 11)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 11)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 11)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            3.909 ms
+	Integration:            315.053 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.052 ms
+	Total Operation Time:   319.016 ms
+Unloading 7954 unused Assets / (5.2 MB). Loaded Objects now: 9692.
+Memory consumption went from 394.8 MB to 389.6 MB.
+Total: 23.716300 ms (FindLiveObjects: 0.972300 ms CreateObjectMapping: 0.580800 ms MarkObjects: 18.936800 ms  DeleteObjects: 3.225500 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+[LAYOUT] About to load Library/UserSettings/Layouts\layout_0010.wlt, keepMainWindow=False
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt

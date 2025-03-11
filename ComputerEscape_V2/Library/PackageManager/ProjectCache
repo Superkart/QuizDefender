@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638771796449028577
-    m_Hash: 4021423117
+      ticks: 638772725055722071
+    m_Hash: 2717999436
   m_LockFileStatus:
     m_FilePath: D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638771796449053923
-    m_Hash: 3628444315
+      ticks: 638772725055766435
+    m_Hash: 3101534052
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -895,6 +895,147 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.3.3
     minimumUnityVersion: 6000.0.22f1
+- packageId: com.unity.multiplayer.samples.coop@https://github.com/Unity-Technologies/com.unity.multiplayer.samples.coop.git?path=/Packages/com.unity.multiplayer.samples.coop#main
+  testable: 0
+  isDirectDependency: 1
+  version: 1.9.0
+  source: 5
+  resolvedPath: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.multiplayer.samples.coop
+  assetPath: Packages/com.unity.multiplayer.samples.coop
+  name: com.unity.multiplayer.samples.coop
+  displayName: Multiplayer Samples Utilities
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: template
+  description: Utilities package built on top of Netcode for GameObjects, providing
+    useful scripts and tools.
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.learn.iet-framework
+    version: 3.1.3
+  - name: com.unity.multiplayer.tools
+    version: 1.1.0
+  - name: com.unity.netcode.gameobjects
+    version: 1.8.1
+  - name: com.unity.services.relay
+    version: 1.0.5
+  resolvedDependencies:
+  - name: com.unity.learn.iet-framework
+    version: 4.0.3
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  - name: com.unity.settings-manager
+    version: 2.0.1
+  - name: com.unity.multiplayer.tools
+    version: 2.2.1
+  - name: com.unity.burst
+    version: 1.8.18
+  - name: com.unity.mathematics
+    version: 1.3.2
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 2.5.1
+  - name: com.unity.test-framework
+    version: 1.4.5
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.0.3
+  - name: com.unity.profiling.core
+    version: 1.0.2
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  - name: com.unity.netcode.gameobjects
+    version: 2.2.0
+  - name: com.unity.transport
+    version: 2.4.0
+  - name: com.unity.services.relay
+    version: 1.0.5
+  - name: com.unity.services.qos
+    version: 1.3.0
+  - name: com.unity.services.core
+    version: 1.14.0
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.services.authentication
+    version: 3.4.0
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.unitywebrequestwww
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestassetbundle
+    version: 1.0.0
+  - name: com.unity.modules.assetbundle
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestaudio
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequesttexture
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: a14efdf83d0290b7a4dd50ef667063a443d27429
+    revision: main
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 7c13e96a1c5dcd5ab6bb36c37a44d6fc733cea2a
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 
+    minimumUnityVersion: 2020.3.0a1
 - packageId: com.unity.netcode.gameobjects@2.2.0
   testable: 0
   isDirectDependency: 1
@@ -5657,6 +5798,284 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.11.4
     minimumUnityVersion: 2018.4.0a1
+- packageId: com.unity.learn.iet-framework@4.0.3
+  testable: 0
+  isDirectDependency: 0
+  version: 4.0.3
+  source: 1
+  resolvedPath: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.learn.iet-framework
+  assetPath: Packages/com.unity.learn.iet-framework
+  name: com.unity.learn.iet-framework
+  displayName: Tutorial Framework
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: This package is used to display interactive in-Editor tutorials in
+    tutorial projects and project templates.
+  errors: []
+  versions:
+    all:
+    - 0.1.4-preview
+    - 0.1.8-preview
+    - 0.1.10-preview
+    - 0.1.12-preview.2
+    - 0.1.13-preview
+    - 0.1.14-preview
+    - 0.1.15-preview
+    - 0.1.16-preview
+    - 0.1.17-preview
+    - 0.1.18-preview
+    - 0.2.0-preview.1
+    - 0.2.1-preview.1
+    - 0.2.2-preview
+    - 0.2.3-preview.1
+    - 0.3.0-preview.5
+    - 0.4.0-preview.1
+    - 0.5.0-preview.2
+    - 0.5.1-preview
+    - 0.5.1-preview.1
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3-preview.1
+    - 1.0.3-preview.2
+    - 1.0.3
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.0-preview.4
+    - 1.1.0
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 2.0.0-pre.1
+    - 2.0.0-pre.3
+    - 2.0.0-pre.4
+    - 2.0.0-pre.5
+    - 2.0.0-pre.6
+    - 2.0.0
+    - 2.1.0-pre.1
+    - 2.1.0
+    - 2.1.1-pre.1
+    - 2.1.1-pre.2
+    - 2.1.1
+    - 2.1.2-pre.2
+    - 2.1.2
+    - 2.2.0
+    - 2.2.1
+    - 2.2.2
+    - 2.2.3
+    - 3.1.1
+    - 3.1.2
+    - 3.1.3
+    - 4.0.0
+    - 4.0.1
+    - 4.0.2
+    - 4.0.3
+    - 4.0.4
+    - 4.1.0
+    - 4.1.1
+    compatible:
+    - 4.0.3
+    - 4.0.4
+    - 4.1.0
+    - 4.1.1
+    recommended: 4.0.4
+    deprecated: []
+  dependencies:
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  - name: com.unity.settings-manager
+    version: 1.0.3
+  resolvedDependencies:
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  - name: com.unity.settings-manager
+    version: 2.0.1
+  keywords:
+  - tutorials
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638670052981180000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.learn.iet-framework@4.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/iet-package.git
+    revision: 25078fca3045f272f91ae7cec1b9629aa2fa7ad2
+    path: 
+  unityLifecycle:
+    version: 4.0.3
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n\n- Fixed some XMLDoc missing tags\n- Removed
+    a stray Debug.Log\n- Fixed TutorialWindow sometime displaying a wrongly formated
+    title\n- Added missing Localization String so some Title appear properly\n- Fixed
+    Selector type in masking settings overlapping +/- control of Unamsked Control
+    view\n- Muting button on GameView was muting video. Mutting is now removed and
+    reapplied when video play/pause\n- Fixed rare case (mainly happening at authoring
+    time) of a tutorial not being re-enterable after reloading"}'
+  assetStore:
+    productId: 
+  fingerprint: 4e5c5e4eeff965973ca34c642339fc083445c8fc
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 4.0.3
+    minimumUnityVersion: 2021.3.0a1
+- packageId: com.unity.multiplayer.tools@2.2.1
+  testable: 0
+  isDirectDependency: 0
+  version: 2.2.1
+  source: 1
+  resolvedPath: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.multiplayer.tools
+  assetPath: Packages/com.unity.multiplayer.tools
+  name: com.unity.multiplayer.tools
+  displayName: Multiplayer Tools
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Adds a suite of tools that improve workflows for multiplayer development
+  errors: []
+  versions:
+    all:
+    - 1.0.0-pre.2
+    - 1.0.0-pre.6
+    - 1.0.0-pre.7
+    - 1.0.0-pre.8
+    - 1.0.0
+    - 1.1.0
+    - 1.1.1
+    - 2.0.0-pre.2
+    - 2.0.0-pre.3
+    - 2.0.0-pre.5
+    - 2.1.0
+    - 2.2.0
+    - 2.2.1
+    - 2.2.2
+    - 2.2.3
+    compatible:
+    - 2.2.1
+    - 2.2.2
+    - 2.2.3
+    recommended: 2.2.3
+    deprecated: []
+  dependencies:
+  - name: com.unity.burst
+    version: 1.8.17
+  - name: com.unity.collections
+    version: 2.4.0
+  - name: com.unity.mathematics
+    version: 1.3.1
+  - name: com.unity.profiling.core
+    version: 1.0.2
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  resolvedDependencies:
+  - name: com.unity.burst
+    version: 1.8.18
+  - name: com.unity.mathematics
+    version: 1.3.2
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 2.5.1
+  - name: com.unity.test-framework
+    version: 1.4.5
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.0.3
+  - name: com.unity.profiling.core
+    version: 1.0.2
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  keywords:
+  - Multiplayer
+  - Netcode
+  - GameObjects
+  - Tools
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638629866042190000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.multiplayer.tools@2.2/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.multiplayer.tools.git
+    revision: a769d0b44c5f5e6308dc848d2a4b49d3e30b7a9e
+    path: 
+  unityLifecycle:
+    version: 2.2.1
+    nextVersion: 
+    recommendedVersion: 2.2.0
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### *Network Scene Visualization*\n- Fixed a bug which
+    showed the wrong number of clients in the SceneView overlay\n- Fixed a bug which
+    caused null reference exception when entering Play Mode without Domain Reload\n-
+    Fixed a bug which showed wrong ownership visuals with Distributed Authority when
+    reconnecting\n\n### *Runtime Network Stats Monitor*\n- Fixed a bug where RNSM
+    showed no metrics in builds with code stripping enabled\n- Fixed a bug where
+    RNSM stopped working with NGO 2.0.0 or above"}'
+  assetStore:
+    productId: 
+  fingerprint: 212d83b66f830476aafd30cff2797a3a0ae2ea64
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.2.1
+    minimumUnityVersion: 6000.0.0a1
 - packageId: com.unity.collections@2.5.1
   testable: 0
   isDirectDependency: 0
@@ -6318,6 +6737,232 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.1
     minimumUnityVersion: 2023.3.0b1
+- packageId: com.unity.profiling.core@1.0.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.2
+  source: 1
+  resolvedPath: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.profiling.core
+  assetPath: Packages/com.unity.profiling.core
+  name: com.unity.profiling.core
+  displayName: Unity Profiling Core API
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: The Unity Profiling Core package provides an API for code instrumentation
+    markup, and for profiling statistic collection.
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.1
+    - 0.2.0-preview.1
+    - 0.2.1-preview.1
+    - 1.0.0-pre.1
+    - 1.0.0
+    - 1.0.2
+    compatible:
+    - 1.0.2
+    recommended: 1.0.2
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - profiler
+  - profiling
+  - api
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637828752310000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/profiler.git
+    revision: 2189ba14439d76a4083f59fae87163b4bdfd49c2
+    path: 
+  unityLifecycle:
+    version: 1.0.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: aac7b93912bc5df5fe06b04ff1b758493cdc2346
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.2
+    minimumUnityVersion: 2020.1.0a1
+- packageId: com.unity.editorcoroutines@1.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.0
+  source: 1
+  resolvedPath: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.editorcoroutines
+  assetPath: Packages/com.unity.editorcoroutines
+  name: com.unity.editorcoroutines
+  displayName: Editor Coroutines
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: 'The editor coroutines package allows developers to start constructs
+    similar to Unity''s monobehaviour based coroutines within the editor using abitrary
+    objects. '
+  errors: []
+  versions:
+    all:
+    - 0.0.1-preview.3
+    - 0.0.1-preview.4
+    - 0.0.1-preview.5
+    - 0.0.2-preview.1
+    - 0.1.0-preview.1
+    - 0.1.0-preview.2
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - coroutine
+  - coroutines
+  - editor
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637232611380000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.editorcoroutines.git
+    revision: f67fc9992bbc7a553b17375de53a8b2db136528e
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 7d48783e7b8cfcee5f8ef9ba787ed0d9dad4ebca
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 2018.1.0a1
+- packageId: com.unity.settings-manager@2.0.1
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.1
+  source: 1
+  resolvedPath: D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\PackageCache\com.unity.settings-manager
+  assetPath: Packages/com.unity.settings-manager
+  name: com.unity.settings-manager
+  displayName: Settings Manager
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: A framework for making any serializable field a setting, complete
+    with a pre-built settings interface.
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 2.0.0
+    - 2.0.1
+    compatible:
+    - 2.0.1
+    recommended: 2.0.1
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637744099390000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    revision: 9b7c12d04ef880168151c127fd6b37b5931197dc
+    path: 
+  unityLifecycle:
+    version: 2.0.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 56a930affa1e4462d3595b5c19a1c2a4bf2015d2
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.0.1
+    minimumUnityVersion: 2018.4.0a1
 - packageId: com.unity.test-framework.performance@3.0.3
   testable: 0
   isDirectDependency: 0
