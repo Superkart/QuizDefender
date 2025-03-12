@@ -15,7 +15,7 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 159
-    y: 449.5
+    y: 266.5
     width: 1271
     height: 679
   m_ShowMode: 2
@@ -118,8 +118,8 @@ MonoBehaviour:
     y: 0
     width: 1271
     height: 324.5
-  m_MinSize: {x: 50, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 50, y: 76}
+  m_MaxSize: {x: 4000, y: 4026}
   m_ActualView: {fileID: 9}
   m_Panes:
   - {fileID: 9}
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_MinSize: {x: 50, y: 150}
   m_MaxSize: {x: 4000, y: 8050}
   vertical: 1
-  controlID: 23
+  controlID: 78
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -172,8 +172,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Unity.Multiplayer.Playmode.Workflow.Editor.TopView\u200B"
   m_Pos:
     serializedVersion: 2
-    x: -16000
-    y: -16000
+    x: 159
+    y: 266.5
     width: 1271
     height: 30
   m_SerializedDataModeController:
@@ -208,8 +208,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Console\u200B"
   m_Pos:
     serializedVersion: 2
-    x: -16000
-    y: -15645.5
+    x: 159
+    y: 621
     width: 1271
     height: 300.5
   m_SerializedDataModeController:
@@ -244,8 +244,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
-    x: -16000
-    y: -15970
+    x: 159
+    y: 296.5
     width: 1271
     height: 298.5
   m_SerializedDataModeController:
