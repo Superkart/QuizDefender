@@ -63,7 +63,9 @@ Assignment Submission Details:
 
 GitHub Repository: clone https://github.com/Superkart/cs426_Ragi_Karthik_Asgn4.git
 
-Google Drive Link for Executable: [Insert Link Here]
+Youtube link to the demo: https://www.youtube.com/watch?v=WDOzIeUmMRM
+
+Google Drive Link for Executable: https://drive.google.com/drive/folders/1zofn7OQ5QoAGzFr4PRQDCzvikCoqW93P?usp=sharing
 
 TA GitHub Username: nafiul-nipu
 
