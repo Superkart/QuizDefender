@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 211
-    y: 432.5
+    x: 159
+    y: 449.5
     width: 1271
     height: 679
   m_ShowMode: 2
@@ -172,8 +172,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Unity.Multiplayer.Playmode.Workflow.Editor.TopView\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 211
-    y: 432.5
+    x: -16000
+    y: -16000
     width: 1271
     height: 30
   m_SerializedDataModeController:
@@ -208,8 +208,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Console\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 211
-    y: 787
+    x: -16000
+    y: -15645.5
     width: 1271
     height: 300.5
   m_SerializedDataModeController:
@@ -244,8 +244,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 211
-    y: 462.5
+    x: -16000
+    y: -15970
     width: 1271
     height: 298.5
   m_SerializedDataModeController:

@@ -228,7 +228,7 @@ public class GameTimerManager : NetworkBehaviour
         }
     }
 
-    public void CheckAnswer(ulong playerId, string answer)
+  /*  public void CheckAnswer(ulong playerId, string answer)
     {
         if (!IsServer) return; // ✅ Ensure only the server processes answers
 
@@ -255,7 +255,7 @@ public class GameTimerManager : NetworkBehaviour
             globalTimer = 0;
             ResetTimersAndNextQuestion();
         }
-    }
+    }*/
 
 
     private void EnablePlayerMovement()
@@ -264,5 +264,56 @@ public class GameTimerManager : NetworkBehaviour
         {
             player.EnableMovementClientRpc();
         }
+    }
+
+
+
+    public void CheckAnswer(ulong playerId, string answer)
+    {
+        if (!IsServer) return; // Ensure only the server processes answers
+
+        if (questions.Count == 0 || correctAnswers.Count == 0 || currentQuestionIndex < 0) return;
+
+        bool isCorrect = answer == correctAnswers[currentQuestionIndex];
+
+        PlayerMovement player = FindPlayerById(playerId);
+
+        if (player == null) return; // Ensure player exists
+
+        if (isCorrect)
+        {
+            if (playerId == 0) player1Answered = true;
+            else if (playerId == 1) player2Answered = true;
+
+            Debug.Log($"✅ Player {playerId} answered correctly.");
+        }
+        else
+        {
+            Debug.Log($"❌ Player {playerId} answered incorrectly. Applying pushback!");
+
+            // ✅ Ensure pushback is applied using a ServerRpc
+            if (player != null)
+            {
+                player.ApplyPushback();
+            }
+        }
+
+
+        if (player1Answered && player2Answered)
+        {
+            globalTimer = 0;
+            ResetTimersAndNextQuestion();
+        }
+    }
+
+    // Helper function to find player by ID
+    private PlayerMovement FindPlayerById(ulong playerId)
+    {
+        foreach (var player in FindObjectsOfType<PlayerMovement>())
+        {
+            if (player.OwnerClientId == playerId)
+                return player;
+        }
+        return null;
     }
 }

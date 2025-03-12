@@ -50,4 +50,39 @@ public class PlayerMovement : NetworkBehaviour
     {
         transform.position = newPosition;
     }
+
+
+    public void ApplyPushback()
+    {
+        if (IsServer)
+        {
+            // ✅ Apply force on Server
+            ApplyPushbackClientRpc();
+        }
+        else
+        {
+            // ✅ Tell the server to apply force
+            ApplyPushbackServerRpc();
+        }
+    }
+
+    [ServerRpc(RequireOwnership = false)]
+    private void ApplyPushbackServerRpc()
+    {
+        ApplyPushbackClientRpc(); // ✅ Tell all clients to apply pushback
+    }
+
+    [ClientRpc]
+    private void ApplyPushbackClientRpc()
+    {
+        if (!IsOwner) return;
+
+        Rigidbody rb = GetComponent<Rigidbody>();
+        if (rb != null)
+        {
+            rb.AddForce(-transform.forward * 500f, ForceMode.Impulse); // ✅ Push player back
+        }
+    }
+
+
 }
