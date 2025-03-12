@@ -174,7 +174,20 @@ public class GameTimerManager : NetworkBehaviour
             return;
         }
 
-        currentQuestionIndex++;
+        if (currentQuestionIndex == -1)
+        {
+            currentQuestionIndex = 0; // ✅ Ensures the first question is shown correctly
+        }
+        else if (currentQuestionIndex < questions.Count - 1)
+        {
+            currentQuestionIndex++; // ✅ Move to the next question normally
+        }
+        else
+        {
+            Debug.Log("✅ All questions have been answered. Game Over.");
+            EndGame();
+            return;
+        }
         UpdateQuestionClientRpc(questions[currentQuestionIndex]);
     }
 
@@ -191,7 +204,7 @@ public class GameTimerManager : NetworkBehaviour
     {
         if (floorMaterials.Count == 0) return;
 
-        int materialIndex = questionCount / 2 % floorMaterials.Count;
+        int materialIndex = (currentQuestionIndex) % floorMaterials.Count;
         UpdateFloorMaterialClientRpc(materialIndex);
     }
 
