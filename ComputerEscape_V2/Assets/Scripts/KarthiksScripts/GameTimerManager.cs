@@ -143,6 +143,7 @@ public class GameTimerManager : NetworkBehaviour
 
     private void ResetTimersAndNextQuestion()
     {
+        ChangeFloorMaterialServerRpc();
         if (currentQuestionIndex >= questions.Count - 1)
         {
             EndGame();
@@ -155,7 +156,7 @@ public class GameTimerManager : NetworkBehaviour
 
         questionCount++;
 
-        if (questionCount % 2 == 0) ChangeFloorMaterialServerRpc();
+        
 
         ResetPlayerPositionsServerRpc();
         SetNextQuestionServerRpc();

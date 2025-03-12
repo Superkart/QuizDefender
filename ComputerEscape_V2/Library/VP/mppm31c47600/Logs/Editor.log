@@ -1,15 +1,15 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to the License Client on channel: "LicenseClient-karth" at "2025-03-12T02:58:05.1824741Z"
+[Licensing::IpcConnector] Successfully connected to the License Client on channel: "LicenseClient-karth" at "2025-03-12T03:12:50.7626615Z"
 [Licensing::Client] Error: Code 10 while verifying Licensing Client signature (process Id: 17776, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] Error: LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.16.2+bdef8f5
-  Session Id:              c8254363baf746778d1df7826743f23c
+  Session Id:              99943f3522b94fc9926652df3485caa2
   Correlation Id:          9cfe60098f4e881cff3cbb53802bb602
-  External correlation Id: 6912843289580258137
+  External correlation Id: 3284131584846237085
   Machine Id:              u/wTCxTNXGcVposxFDeMKWiQZrk=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-karth" (connect: 0.00s, validation: 0.01s, handshake: 0.02s)
-[Licensing::IpcConnector] Successfully connected to the License Notification on channel: "LicenseClient-karth-notifications" at "2025-03-12T02:58:05.2168066Z"
+[Licensing::IpcConnector] Successfully connected to the License Notification on channel: "LicenseClient-karth-notifications" at "2025-03-12T03:12:50.7944753Z"
 [Licensing::Module] Error: Access token is unavailable; failed to update
 [Licensing::Client] Successfully updated license
 Built from '6000.0/staging' branch; Version is '6000.0.34f1 (5ab2d9ed9190) revision 5944025'; Using compiler version '193933523'; Build Type 'Release'
@@ -48,8 +48,8 @@ D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\Com
 D:\UICSem2\GameDevAndDesign\Assignments\Assignment4\cs426_Ragi_Karthik_Asgn4\ComputerEscape_V2\Library\VP\mppm31c47600\Logs\Editor.log
 -vp-channel-name=vp-channel
 -ump-channel-service-port
-62749
--mainProcessId=25844
+64318
+-mainProcessId=24928
 -vpId=mppm31c47600
 -buildTarget
 StandaloneWindows64
@@ -92,12 +92,12 @@ D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/Com
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22592]  Target information:
+Player connection [15616]  Target information:
 
-Player connection [22592]  * "[IP] 192.168.12.151 [Port] 55505 [Flags] 2 [Guid] 342651875 [EditorId] 342651875 [Version] 1048832 [Id] WindowsEditor(7,RagisLegion) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [15616]  * "[IP] 192.168.12.151 [Port] 55505 [Flags] 2 [Guid] 708512986 [EditorId] 708512986 [Version] 1048832 [Id] WindowsEditor(7,RagisLegion) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [22592] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [22592] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15616] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15616] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -190,7 +190,7 @@ Library Redirect Path: ../../
 Package Manager log level set to [2]
 [Package Manager] Done registering packages in 0.09 seconds
 Targeting platform: StandaloneWindows64
-Refreshing native plugins compatible for Editor in 2.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.34f1 (5ab2d9ed9190)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/Resources/UnitySubsystems
@@ -208,7 +208,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
 Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
 Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
 ImportWorker Server TCP listen port: 0
@@ -221,8 +221,8 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.34f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.031442 seconds.
-- Loaded All Assemblies, in  0.411 seconds
+Registered in 0.027094 seconds.
+- Loaded All Assemblies, in  0.301 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
@@ -230,35 +230,35 @@ Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.391 seconds
-Domain Reload Profiling: 801ms
-	BeginReloadAssembly (100ms)
+- Finished resetting the current domain, in  0.290 seconds
+Domain Reload Profiling: 590ms
+	BeginReloadAssembly (92ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (88ms)
-	LoadAllAssembliesAndSetupDomain (177ms)
-		LoadAssemblies (99ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (116ms)
+		LoadAssemblies (91ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (171ms)
-			TypeCache.Refresh (170ms)
-				TypeCache.ScanAssembly (158ms)
+		AnalyzeDomain (113ms)
+			TypeCache.Refresh (112ms)
+				TypeCache.ScanAssembly (103ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (392ms)
+	FinalizeReload (291ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (362ms)
+		SetupLoadedEditorAssemblies (267ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (137ms)
+			InitializePlatformSupportModulesInManaged (104ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (48ms)
-			ProcessInitializeOnLoadAttributes (112ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (83ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -266,77 +266,77 @@ Domain Reload Profiling: 801ms
 [Licensing::Client] Successfully resolved entitlement details
 Application.AssetDatabase Initial Refresh Start
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.732 seconds
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.695 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.297 seconds
-Domain Reload Profiling: 3028ms
-	BeginReloadAssembly (175ms)
+- Finished resetting the current domain, in  2.323 seconds
+Domain Reload Profiling: 3017ms
+	BeginReloadAssembly (163ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (57ms)
+		DisableScriptedObjects (50ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
+		CreateAndSetChildDomain (19ms)
 	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
+	RebuildNativeTypeToScriptingClass (9ms)
 	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (494ms)
-		LoadAssemblies (289ms)
+	LoadAllAssembliesAndSetupDomain (468ms)
+		LoadAssemblies (257ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (274ms)
+		AnalyzeDomain (280ms)
 			TypeCache.Refresh (159ms)
 				TypeCache.ScanAssembly (144ms)
-			BuildScriptInfoCaches (103ms)
+			BuildScriptInfoCaches (109ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (2298ms)
+	FinalizeReload (2324ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2107ms)
+		SetupLoadedEditorAssemblies (2176ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
+			InitializePlatformSupportModulesInManaged (34ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (118ms)
-			ProcessInitializeOnLoadAttributes (1674ms)
-			ProcessInitializeOnLoadMethodAttributes (269ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (1638ms)
+			ProcessInitializeOnLoadMethodAttributes (387ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Asset Pipeline Refresh (id=675388bf1549db64581c909477c41461): Total: 3.678 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Asset Pipeline Refresh (id=b7cd8de13126c2b4abb43b7b3703dd25): Total: 3.620 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
 	Summary:
 		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=2888 ms
+		Asset DB Process Time: managed=0 ms, native=2862 ms
 		Asset DB Callback time: managed=0 ms, native=0 ms
-		Scripting: domain reloads=1, domain reload time=788 ms, compile time=1 ms, other=0 ms
+		Scripting: domain reloads=1, domain reload time=756 ms, compile time=1 ms, other=0 ms
 		Project Asset Count: scripts=1827, non-scripts=2525
 		Asset File Changes: new=0, changed=0, moved=0, deleted=0
 		Scan Filter Count: 1
 	InvokeCustomDependenciesCallbacks: 0.001ms
-	InvokePackagesCallback: 0.003ms
-	ApplyChangesToAssetFolders: 0.274ms
-	CategorizeAssets: 64.300ms
-	ImportOutOfDateAssets: 2309.267ms (2305.244ms without children)
-		CompileScripts: 1.342ms
-		ReloadNativeAssets: 0.021ms
-		UnloadImportedAssets: 1.301ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.609ms
-		InitializingProgressBar: 0.000ms
+	InvokePackagesCallback: 0.002ms
+	ApplyChangesToAssetFolders: 0.210ms
+	CategorizeAssets: 55.907ms
+	ImportOutOfDateAssets: 2334.497ms (2330.764ms without children)
+		CompileScripts: 1.099ms
+		ReloadNativeAssets: 0.034ms
+		UnloadImportedAssets: 1.413ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.741ms
+		InitializingProgressBar: 0.001ms
 		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
-		OnDemandSchedulerStart: 0.750ms
-	Hotreload: 1.359ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.001ms
-	UnloadStreamsBegin: 1.683ms
-	UnloadStreamsEnd: 0.001ms
-	GenerateScriptTypeHashes: 3.293ms
-	Untracked: 1301.597ms
+		OnDemandSchedulerStart: 0.444ms
+	Hotreload: 1.481ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.000ms
+	UnloadStreamsBegin: 1.080ms
+	UnloadStreamsEnd: 0.002ms
+	GenerateScriptTypeHashes: 3.427ms
+	Untracked: 1226.993ms
 
 Application.AssetDatabase Initial Refresh End
-Scanning for USB devices : 1.861ms
+Scanning for USB devices : 1.775ms
 Initializing Unity extensions:
 [Licensing::Client] Successfully resolved entitlement details
 [MODES] ModeService[none].Initialize
@@ -344,56 +344,55 @@ Initializing Unity extensions:
 [MODES] Loading mode Default (0) for mode-current-id-ComputerEscape_V2
 [MODES] Loading editor mode Multiplayer Playmode Clone (1) from command line.
 Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8072 unused Assets / (11.4 MB). Loaded Objects now: 8722.
-Memory consumption went from 247.5 MB to 236.1 MB.
-Total: 12.112800 ms (FindLiveObjects: 0.541400 ms CreateObjectMapping: 0.391200 ms MarkObjects: 6.520000 ms  DeleteObjects: 4.659200 ms)
+Unloading 8072 unused Assets / (8.9 MB). Loaded Objects now: 8722.
+Memory consumption went from 247.5 MB to 238.6 MB.
+Total: 13.001800 ms (FindLiveObjects: 0.576400 ms CreateObjectMapping: 0.659300 ms MarkObjects: 7.153700 ms  DeleteObjects: 4.611500 ms)
 
-IsTimeToCheckForNewEditor: Update time 1741748119 current 1741748292
-[Project] Loading completed in 7.572 seconds
-	Project init time: 				5.570 seconds
+IsTimeToCheckForNewEditor: Update time 1741749224 current 1741749177
+[Project] Loading completed in 6.915 seconds
+	Project init time: 				5.157 seconds
 		Template init time: 		0.000 seconds
 		Package Manager init time: 		0.000 seconds
-		Asset Database init time: 		0.209 seconds
-		Global illumination init time: 	0.003 seconds
-		Assemblies load time: 			0.815 seconds
-		Unity extensions init time: 	0.034 seconds
-		Asset Database refresh time: 	3.679 seconds
-	Scene opening time: 			0.372 seconds
-##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1741748292723,"processId":4676,"projectLoad":7.5721327,"projectInit":5.5697986,"templateInit":0.0,"packageManagerInit":4e-7,"assetDatabaseInit":0.209414,"globalIlluminationInit":0.0027695,"assembliesLoad":0.8147571,"unityExtensionsInit":0.0336927,"assetDatabaseRefresh":3.6786093,"sceneOpening":0.3720068}
-##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1741748292723,"processId":4676,"editorVersion":"6000.0.34f1 (5ab2d9ed9190)","branch":"6000.0/staging","buildType":"Release","platform":"Windows"}
-Asset Pipeline Refresh (id=eac28015ba24d7045b438ca87a70a803): Total: 0.572 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+		Asset Database init time: 		0.165 seconds
+		Global illumination init time: 	0.002 seconds
+		Assemblies load time: 			0.601 seconds
+		Unity extensions init time: 	0.043 seconds
+		Asset Database refresh time: 	3.620 seconds
+	Scene opening time: 			0.382 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1741749177610,"processId":23056,"projectLoad":6.915074199999999,"projectInit":5.157028,"templateInit":0.0,"packageManagerInit":5e-7,"assetDatabaseInit":0.1650661,"globalIlluminationInit":0.0019496,"assembliesLoad":0.6008841,"unityExtensionsInit":0.0426067,"assetDatabaseRefresh":3.6203552,"sceneOpening":0.3815658}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1741749177610,"processId":23056,"editorVersion":"6000.0.34f1 (5ab2d9ed9190)","branch":"6000.0/staging","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=5907d708026cb1e4e9b63db03f641c44): Total: 0.545 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
 	Summary:
 		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=572 ms
+		Asset DB Process Time: managed=0 ms, native=544 ms
 		Asset DB Callback time: managed=0 ms, native=0 ms
 		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
 		Project Asset Count: scripts=1827, non-scripts=2525
 		Asset File Changes: new=0, changed=0, moved=0, deleted=0
 		Scan Filter Count: 1
-	InvokeCustomDependenciesCallbacks: 0.000ms
-	InvokePackagesCallback: 0.002ms
-	ApplyChangesToAssetFolders: 0.226ms
-	CategorizeAssets: 68.535ms
-	ImportOutOfDateAssets: 1.247ms (0.309ms without children)
-		ReloadNativeAssets: 0.025ms
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.219ms
+	CategorizeAssets: 76.094ms
+	ImportOutOfDateAssets: 1.214ms (0.390ms without children)
+		ReloadNativeAssets: 0.020ms
 		UnloadImportedAssets: 0.001ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.537ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.446ms
 		InitializingProgressBar: 0.000ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
-		OnDemandSchedulerStart: 0.374ms
-	Hotreload: 1.565ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.151ms
-	UnloadStreamsBegin: 1.331ms
-	UnloadStreamsEnd: 0.004ms
-	Untracked: 499.160ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.356ms
+	Hotreload: 1.537ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.193ms
+	UnloadStreamsBegin: 1.284ms
+	UnloadStreamsEnd: 0.001ms
+	Untracked: 464.096ms
 
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
 Reloading assemblies due to reload request.
 Reloading assemblies after forced synchronous recompile.
 Begin MonoManager ReloadAssembly
-Android Extension - Scanning For ADB Devices 258 ms
-- Loaded All Assemblies, in  1.653 seconds
-Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.641 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
@@ -403,70 +402,69 @@ Native extension for OSXStandalone target not found
 [MODES] Loading mode Default (0) for mode-current-id-ComputerEscape_V2
 [MODES] Loading editor mode Multiplayer Playmode Clone (1) from command line.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.029 seconds
-Domain Reload Profiling: 2683ms
-	BeginReloadAssembly (635ms)
+- Finished resetting the current domain, in  1.011 seconds
+Domain Reload Profiling: 2654ms
+	BeginReloadAssembly (689ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (66ms)
+		DisableScriptedObjects (67ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (403ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (901ms)
-		LoadAssemblies (671ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (430ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (831ms)
+		LoadAssemblies (653ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (336ms)
-			TypeCache.Refresh (8ms)
+		AnalyzeDomain (301ms)
+			TypeCache.Refresh (11ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (306ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1029ms)
+			BuildScriptInfoCaches (272ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1012ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (785ms)
+		SetupLoadedEditorAssemblies (792ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (42ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (224ms)
-			ProcessInitializeOnLoadAttributes (309ms)
-			ProcessInitializeOnLoadMethodAttributes (197ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (221ms)
+			ProcessInitializeOnLoadAttributes (308ms)
+			ProcessInitializeOnLoadMethodAttributes (201ms)
 			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Asset Pipeline Refresh (id=24f8385544fe2d24999344d3af064af3): Total: 3.498 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Asset Pipeline Refresh (id=b903d810c97d72643a8338d800a5dc25): Total: 3.489 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
 	Summary:
 		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=1828 ms
+		Asset DB Process Time: managed=0 ms, native=1829 ms
 		Asset DB Callback time: managed=0 ms, native=0 ms
-		Scripting: domain reloads=1, domain reload time=1668 ms, compile time=1 ms, other=0 ms
+		Scripting: domain reloads=1, domain reload time=1657 ms, compile time=2 ms, other=0 ms
 		Project Asset Count: scripts=1827, non-scripts=2525
 		Asset File Changes: new=0, changed=0, moved=0, deleted=0
 		Scan Filter Count: 0
 	InvokeCustomDependenciesCallbacks: 0.001ms
-	InvokePackagesCallback: 0.006ms
-	ApplyChangesToAssetFolders: 0.429ms
-	CategorizeAssets: 88.118ms
-	ImportOutOfDateAssets: 1038.351ms (1032.146ms without children)
-		CompileScripts: 1.287ms
-		CollectScriptTypesHashes: 2.628ms
-		ReloadNativeAssets: 1.106ms
-		UnloadImportedAssets: 0.101ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.748ms
-		InitializingProgressBar: 0.000ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
-		OnDemandSchedulerStart: 0.333ms
-	Hotreload: 1.034ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.332ms
+	InvokePackagesCallback: 0.003ms
+	ApplyChangesToAssetFolders: 0.409ms
+	CategorizeAssets: 103.970ms
+	ImportOutOfDateAssets: 1023.836ms (1015.235ms without children)
+		CompileScripts: 1.757ms
+		CollectScriptTypesHashes: 2.696ms
+		ReloadNativeAssets: 0.748ms
+		UnloadImportedAssets: 0.163ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.562ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.002ms
+		OnDemandSchedulerStart: 1.673ms
+	Hotreload: 1.221ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.262ms
 	UnloadStreamsBegin: 0.002ms
-	UnloadStreamsEnd: 0.002ms
-	GenerateScriptTypeHashes: 4.454ms
-	Untracked: 2369.603ms
+	UnloadStreamsEnd: 0.004ms
+	GenerateScriptTypeHashes: 5.693ms
+	Untracked: 2359.052ms
 
-EditorUpdateCheck: Failed Cert verify failed. Certificate has expired. UnityTls error code: 7
-Created GICache directory at C:/Users/karth/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.005s, timestamps: [7.574 - 7.580]
+Created GICache directory at C:/Users/karth/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.006s, timestamps: [6.918 - 6.924]
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to load Library/UserSettings/Layouts\layout_0010.wlt, keepMainWindow=False
 <RI> Initialized touch support.
@@ -478,19 +476,23 @@ Using Windows.Gaming.Input
 Opening scene 'Assets/Scenes/KarthikRagi.unity'
 Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
 Loaded scene 'Assets/Scenes/KarthikRagi.unity'
-	Deserialize:            52.287 ms
-	Integration:            310.894 ms
-	Integration of assets:  6.746 ms
-	Thread Wait Time:       0.773 ms
-	Total Operation Time:   370.699 ms
-Unloading 7992 unused Assets / (2.6 MB). Loaded Objects now: 9075.
-Memory consumption went from 298.9 MB to 296.4 MB.
-Total: 9.608300 ms (FindLiveObjects: 0.596400 ms CreateObjectMapping: 0.519500 ms MarkObjects: 6.382600 ms  DeleteObjects: 2.109100 ms)
+	Deserialize:            46.621 ms
+	Integration:            299.738 ms
+	Integration of assets:  9.026 ms
+	Thread Wait Time:       0.470 ms
+	Total Operation Time:   355.856 ms
+Unloading 7992 unused Assets / (2.5 MB). Loaded Objects now: 9075.
+Memory consumption went from 296.9 MB to 294.4 MB.
+Total: 9.882600 ms (FindLiveObjects: 0.539800 ms CreateObjectMapping: 0.404000 ms MarkObjects: 6.802400 ms  DeleteObjects: 2.135600 ms)
 
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [Licensing::Client] Successfully updated the access token
-[Licensing::Module] Successfully updated access token: "f7ShXZWq"... (expires: 2026-03-12T02:58:19Z)
+[Licensing::Module] Successfully updated access token: "f7ShXZWq"... (expires: 2026-03-12T03:13:03Z)
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+UPID Received '08929c5f-9f66-4dcd-8e89-0ad4d88af31e'.
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "f7ShXZWq"... (expires: 2026-03-12T03:13:04Z)
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 UPID Received '08929c5f-9f66-4dcd-8e89-0ad4d88af31e'.
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
@@ -528,114 +530,11 @@ UPID Received '08929c5f-9f66-4dcd-8e89-0ad4d88af31e'.
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-Reloading assemblies for play mode.
-Reloading assemblies after forced synchronous recompile.
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.002 seconds
-Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-ComputerEscape_V2
-[MODES] Loading editor mode Multiplayer Playmode Clone (1) from command line.
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.194 seconds
-Domain Reload Profiling: 2198ms
-	BeginReloadAssembly (521ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (35ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (364ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (430ms)
-		LoadAssemblies (271ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (224ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (205ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1194ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (715ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (29ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (163ms)
-			ProcessInitializeOnLoadAttributes (352ms)
-			ProcessInitializeOnLoadMethodAttributes (164ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (179ms)
-Asset Pipeline Refresh (id=e19c62a22c9fa3f46a32219f30b26d86): Total: 2.819 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
-	Summary:
-		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=1805 ms
-		Asset DB Callback time: managed=0 ms, native=0 ms
-		Scripting: domain reloads=1, domain reload time=1012 ms, compile time=1 ms, other=0 ms
-		Project Asset Count: scripts=1827, non-scripts=2525
-		Asset File Changes: new=0, changed=0, moved=0, deleted=0
-		Scan Filter Count: 0
-	InvokeCustomDependenciesCallbacks: 0.001ms
-	InvokePackagesCallback: 0.005ms
-	ApplyChangesToAssetFolders: 0.434ms
-	CategorizeAssets: 84.929ms
-	ImportOutOfDateAssets: 1202.446ms (1199.039ms without children)
-		CompileScripts: 0.997ms
-		CollectScriptTypesHashes: 0.666ms
-		ReloadNativeAssets: 0.809ms
-		UnloadImportedAssets: 0.078ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.570ms
-		InitializingProgressBar: 0.000ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
-		OnDemandSchedulerStart: 0.287ms
-	Hotreload: 1.898ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.206ms
-	UnloadStreamsBegin: 1.628ms
-	UnloadStreamsEnd: 0.001ms
-	GenerateScriptTypeHashes: 2.981ms
-	Untracked: 1527.404ms
-
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            13.005 ms
-	Integration:            290.410 ms
-	Integration of assets:  0.081 ms
-	Thread Wait Time:       0.164 ms
-	Total Operation Time:   303.661 ms
-Asset Pipeline Refresh (id=08507678f037ef44fbf78b0ac739bb11): Total: 0.738 seconds - Initiated by RefreshV2(ForceUpdate)
-	Summary:
-		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=737 ms
-		Asset DB Callback time: managed=0 ms, native=0 ms
-		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
-		Project Asset Count: scripts=1827, non-scripts=2525
-		Asset File Changes: new=0, changed=0, moved=0, deleted=0
-		Scan Filter Count: 1
-	InvokeCustomDependenciesCallbacks: 0.000ms
-	InvokePackagesCallback: 0.002ms
-	ApplyChangesToAssetFolders: 0.271ms
-	CategorizeAssets: 111.439ms
-	ImportOutOfDateAssets: 1.647ms (0.416ms without children)
-		ReloadNativeAssets: 0.053ms
-		UnloadImportedAssets: 0.002ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.630ms
-		InitializingProgressBar: 0.000ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
-		OnDemandSchedulerStart: 0.547ms
-	Hotreload: 3.621ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.190ms
-	UnloadStreamsBegin: 0.078ms
-	UnloadStreamsEnd: 0.005ms
-	Untracked: 620.325ms
-
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
@@ -656,935 +555,6 @@ TrimDiskCacheJob: Current cache size 0mb
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-✅ Client Joined Party.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-NetworkManagerUI/<StartClientRelay>d__11:MoveNext () (at D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/NetworkManagerUI.cs:61)
-System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
-System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
-System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
-System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
-System.Threading.Tasks.Task:FinishContinuations ()
-System.Threading.Tasks.Task:FinishStageThree ()
-System.Threading.Tasks.Task`1<Unity.Services.Relay.Models.JoinAllocation>:TrySetResult (Unity.Services.Relay.Models.JoinAllocation)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Unity.Services.Relay.Models.JoinAllocation>:SetResult (Unity.Services.Relay.Models.JoinAllocation)
-Unity.Services.Relay.WrappedRelayService/<JoinAllocationAsync>d__8:MoveNext () (at ./Library/PackageCache/com.unity.services.relay/Runtime/SDK/WrappedRelayService.cs:173)
-System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
-System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
-System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
-System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
-System.Threading.Tasks.Task:FinishContinuations ()
-System.Threading.Tasks.Task:FinishStageThree ()
-System.Threading.Tasks.Task`1<Unity.Services.Relay.Response`1<Unity.Services.Relay.Models.JoinResponseBody>>:TrySetResult (Unity.Services.Relay.Response`1<Unity.Services.Relay.Models.JoinResponseBody>)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Unity.Services.Relay.Response`1<Unity.Services.Relay.Models.JoinResponseBody>>:SetResult (Unity.Services.Relay.Response`1<Unity.Services.Relay.Models.JoinResponseBody>)
-Unity.Services.Relay.Apis.RelayAllocations.RelayAllocationsApiClient/<JoinRelayAsync>d__9:MoveNext () (at ./Library/PackageCache/com.unity.services.relay/Runtime/Apis/RelayAllocationsApi.cs:187)
-System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
-System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
-System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
-System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
-System.Threading.Tasks.Task:FinishContinuations ()
-System.Threading.Tasks.Task:FinishStageThree ()
-System.Threading.Tasks.Task`1<Unity.Services.Relay.Http.HttpClientResponse>:TrySetResult (Unity.Services.Relay.Http.HttpClientResponse)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Unity.Services.Relay.Http.HttpClientResponse>:SetResult (Unity.Services.Relay.Http.HttpClientResponse)
-Unity.Services.Relay.Http.HttpClient/<MakeRequestAsync>d__1:MoveNext () (at ./Library/PackageCache/com.unity.services.relay/Runtime/Http/HttpClient.cs:41)
-System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
-System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
-System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
-System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
-System.Threading.Tasks.Task:FinishContinuations ()
-System.Threading.Tasks.Task:FinishStageThree ()
-System.Threading.Tasks.Task`1<Unity.Services.Relay.Http.HttpClientResponse>:TrySetResult (Unity.Services.Relay.Http.HttpClientResponse)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Unity.Services.Relay.Http.HttpClientResponse>:SetResult (Unity.Services.Relay.Http.HttpClientResponse)
-Unity.Services.Relay.Http.HttpClient/<CreateWebRequestAsync>d__3:MoveNext () (at ./Library/PackageCache/com.unity.services.relay/Runtime/Http/HttpClient.cs:56)
-System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
-System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
-System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
-System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
-System.Threading.Tasks.Task:FinishContinuations ()
-System.Threading.Tasks.Task:FinishStageThree ()
-System.Threading.Tasks.Task`1<Unity.Services.Relay.Http.HttpClientResponse>:TrySetResult (Unity.Services.Relay.Http.HttpClientResponse)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Unity.Services.Relay.Http.HttpClientResponse>:SetResult (Unity.Services.Relay.Http.HttpClientResponse)
-Unity.Services.Relay.Http.HttpClient/<CreateHttpClientResponse>d__4:MoveNext () (at ./Library/PackageCache/com.unity.services.relay/Runtime/Http/HttpClient.cs:84)
-System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
-System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
-System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
-System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
-System.Threading.Tasks.Task:FinishContinuations ()
-System.Threading.Tasks.Task:FinishStageThree ()
-System.Threading.Tasks.Task`1<Unity.Services.Relay.Http.HttpClientResponse>:TrySetResult (Unity.Services.Relay.Http.HttpClientResponse)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Unity.Services.Relay.Http.HttpClientResponse>:SetResult (Unity.Services.Relay.Http.HttpClientResponse)
-Unity.Services.Relay.Http.HttpClient/<>c__DisplayClass4_0/<<CreateHttpClientResponse>b__0>d:MoveNext () (at ./Library/PackageCache/com.unity.services.relay/Runtime/Http/HttpClient.cs:81)
-System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
-System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
-System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
-System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
-System.Threading.Tasks.Task:FinishContinuations ()
-System.Threading.Tasks.Task:FinishStageThree ()
-System.Threading.Tasks.Task`1<Unity.Services.Relay.Http.HttpClientResponse>:TrySetResult (Unity.Services.Relay.Http.HttpClientResponse)
-System.Threading.Tasks.TaskCompletionSource`1<Unity.Services.Relay.Http.HttpClientResponse>:TrySetResult (Unity.Services.Relay.Http.HttpClientResponse)
-System.Threading.Tasks.TaskCompletionSource`1<Unity.Services.Relay.Http.HttpClientResponse>:SetResult (Unity.Services.Relay.Http.HttpClientResponse)
-Unity.Services.Relay.Http.UnityWebRequestHelpers/<>c__DisplayClass0_0:<GetAwaiter>b__0 (UnityEngine.AsyncOperation) (at ./Library/PackageCache/com.unity.services.relay/Runtime/Http/UnityWebRequestHelpers.cs:34)
-UnityEngine.AsyncOperation:InvokeCompletionEvent ()
-
-(Filename: D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/NetworkManagerUI.cs Line: 61)
-
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-❌ GameTimerManager running on CLIENT.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-GameTimerManager:OnNetworkSpawn () (at D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/GameTimerManager.cs:66)
-Unity.Netcode.NetworkBehaviour:VisibleOnNetworkSpawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkBehaviour.cs:750)
-Unity.Netcode.NetworkObject:InvokeBehaviourNetworkSpawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkObject.cs:2402)
-Unity.Netcode.NetworkSpawnManager:SpawnNetworkObjectLocallyCommon (Unity.Netcode.NetworkObject,ulong,bool,bool,ulong,bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Spawning/NetworkSpawnManager.cs:1164)
-Unity.Netcode.NetworkSpawnManager:SpawnNetworkObjectLocally (Unity.Netcode.NetworkObject,Unity.Netcode.NetworkObject/SceneObject&,bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Spawning/NetworkSpawnManager.cs:1089)
-Unity.Netcode.NetworkObject:AddSceneObject (Unity.Netcode.NetworkObject/SceneObject&,Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkManager,bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkObject.cs:3104)
-Unity.Netcode.SceneEventData:SynchronizeSceneNetworkObjects (Unity.Netcode.NetworkManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/SceneManagement/SceneEventData.cs:1119)
-Unity.Netcode.NetworkSceneManager:HandleClientSceneEvent (uint) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/SceneManagement/NetworkSceneManager.cs:2358)
-Unity.Netcode.NetworkSceneManager:ClientLoadedSynchronization (uint) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/SceneManagement/NetworkSceneManager.cs:2253)
-Unity.Netcode.NetworkSceneManager:OnClientBeginSync (uint) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/SceneManagement/NetworkSceneManager.cs:2175)
-Unity.Netcode.NetworkSceneManager:HandleClientSceneEvent (uint) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/SceneManagement/NetworkSceneManager.cs:2340)
-Unity.Netcode.NetworkSceneManager:HandleSceneEvent (ulong,Unity.Netcode.FastBufferReader) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/SceneManagement/NetworkSceneManager.cs:2734)
-Unity.Netcode.SceneEventMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/SceneEventMessage.cs:29)
-Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.SceneEventMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:563)
-Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:422)
-Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:448)
-Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkManager.cs:332)
-Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkUpdateLoop.cs:191)
-Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkUpdateLoop.cs:214)
-
-(Filename: D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/GameTimerManager.cs Line: 66)
-
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-✅ Movement enabled for Player 1
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-PlayerMovement:EnableMovementClientRpc () (at D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/PlayerMovement.cs:43)
-PlayerMovement:__rpc_handler_1940410643 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
-Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/RpcMessages.cs:75)
-Unity.Netcode.ClientRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/RpcMessages.cs:168)
-Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ClientRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:563)
-Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:422)
-Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:448)
-Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkManager.cs:332)
-Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkUpdateLoop.cs:191)
-Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkUpdateLoop.cs:214)
-
-(Filename: D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/PlayerMovement.cs Line: 43)
-
-✅ Movement enabled for Player 0
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-PlayerMovement:EnableMovementClientRpc () (at D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/PlayerMovement.cs:43)
-PlayerMovement:__rpc_handler_1940410643 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
-Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/RpcMessages.cs:75)
-Unity.Netcode.ClientRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/RpcMessages.cs:168)
-Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ClientRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:563)
-Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:422)
-Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:448)
-Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkManager.cs:332)
-Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkUpdateLoop.cs:191)
-Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkUpdateLoop.cs:214)
-
-(Filename: D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/PlayerMovement.cs Line: 43)
-
-✅ Movement enabled for Player 1
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-PlayerMovement:EnableMovementClientRpc () (at D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/PlayerMovement.cs:43)
-PlayerMovement:__rpc_handler_1940410643 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
-Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/RpcMessages.cs:75)
-Unity.Netcode.ClientRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/RpcMessages.cs:168)
-Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ClientRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:563)
-Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:422)
-Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:448)
-Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkManager.cs:332)
-Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkUpdateLoop.cs:191)
-Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkUpdateLoop.cs:214)
-
-(Filename: D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/PlayerMovement.cs Line: 43)
-
-✅ Movement enabled for Player 0
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-PlayerMovement:EnableMovementClientRpc () (at D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/PlayerMovement.cs:43)
-PlayerMovement:__rpc_handler_1940410643 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
-Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/RpcMessages.cs:75)
-Unity.Netcode.ClientRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/RpcMessages.cs:168)
-Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ClientRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:563)
-Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:422)
-Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs:448)
-Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkManager.cs:332)
-Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkUpdateLoop.cs:191)
-Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkUpdateLoop.cs:214)
-
-(Filename: D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/PlayerMovement.cs Line: 43)
-
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            2.806 ms
-	Integration:            207.930 ms
-	Integration of assets:  0.002 ms
-	Thread Wait Time:       0.010 ms
-	Total Operation Time:   210.748 ms
-Unloading 7990 unused Assets / (5.6 MB). Loaded Objects now: 9771.
-Memory consumption went from 404.0 MB to 398.4 MB.
-Total: 15.510300 ms (FindLiveObjects: 0.753600 ms CreateObjectMapping: 0.642800 ms MarkObjects: 12.102300 ms  DeleteObjects: 2.010900 ms)
-
-[Licensing::Client] Successfully resolved entitlement details
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
@@ -1644,8 +614,8 @@ Reloading assemblies due to reload request.
 Reloading assemblies after forced synchronous recompile.
 [Licensing::Client] Successfully resolved entitlement details
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.258 seconds
-Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.230 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
@@ -1655,127 +625,68 @@ Native extension for OSXStandalone target not found
 [MODES] Loading mode Default (0) for mode-current-id-ComputerEscape_V2
 [MODES] Loading editor mode Multiplayer Playmode Clone (1) from command line.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.332 seconds
-Domain Reload Profiling: 2595ms
-	BeginReloadAssembly (683ms)
+- Finished resetting the current domain, in  1.418 seconds
+Domain Reload Profiling: 2650ms
+	BeginReloadAssembly (664ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (35ms)
+		DisableScriptedObjects (47ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (417ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (507ms)
-		LoadAssemblies (328ms)
+		CreateAndSetChildDomain (420ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (513ms)
+		LoadAssemblies (342ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (272ms)
-			TypeCache.Refresh (12ms)
+		AnalyzeDomain (251ms)
+			TypeCache.Refresh (13ms)
 				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (241ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1333ms)
+			BuildScriptInfoCaches (223ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1419ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (853ms)
+		SetupLoadedEditorAssemblies (884ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (36ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (175ms)
-			ProcessInitializeOnLoadAttributes (475ms)
-			ProcessInitializeOnLoadMethodAttributes (161ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (199ms)
+			ProcessInitializeOnLoadAttributes (490ms)
+			ProcessInitializeOnLoadMethodAttributes (154ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (145ms)
-Asset Pipeline Refresh (id=098ef4ca90040034e90403c7056dbc60): Total: 3.267 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+		AwakeInstancesAfterBackupRestoration (170ms)
+Asset Pipeline Refresh (id=28ba8179168313f4683151b5fc95909e): Total: 3.325 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
 	Summary:
 		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=1975 ms
+		Asset DB Process Time: managed=0 ms, native=2068 ms
 		Asset DB Callback time: managed=0 ms, native=0 ms
-		Scripting: domain reloads=1, domain reload time=1289 ms, compile time=1 ms, other=0 ms
+		Scripting: domain reloads=1, domain reload time=1255 ms, compile time=1 ms, other=0 ms
 		Project Asset Count: scripts=1827, non-scripts=2525
 		Asset File Changes: new=0, changed=0, moved=0, deleted=0
 		Scan Filter Count: 0
 	InvokeCustomDependenciesCallbacks: 0.001ms
 	InvokePackagesCallback: 0.005ms
-	ApplyChangesToAssetFolders: 0.433ms
-	CategorizeAssets: 67.960ms
-	ImportOutOfDateAssets: 1340.274ms (1336.655ms without children)
-		CompileScripts: 0.886ms
-		CollectScriptTypesHashes: 0.703ms
-		ReloadNativeAssets: 0.867ms
-		UnloadImportedAssets: 0.105ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.635ms
+	ApplyChangesToAssetFolders: 0.487ms
+	CategorizeAssets: 92.772ms
+	ImportOutOfDateAssets: 1428.819ms (1424.616ms without children)
+		CompileScripts: 1.006ms
+		CollectScriptTypesHashes: 0.974ms
+		ReloadNativeAssets: 0.985ms
+		UnloadImportedAssets: 0.107ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.754ms
 		InitializingProgressBar: 0.000ms
 		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
-		OnDemandSchedulerStart: 0.422ms
-	Hotreload: 1.218ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.262ms
-	UnloadStreamsBegin: 0.036ms
+		OnDemandSchedulerStart: 0.376ms
+	Hotreload: 2.037ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.332ms
+	UnloadStreamsBegin: 1.742ms
 	UnloadStreamsEnd: 0.001ms
-	GenerateScriptTypeHashes: 2.344ms
-	Untracked: 1856.345ms
+	GenerateScriptTypeHashes: 3.878ms
+	Untracked: 1798.798ms
 
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
@@ -1794,8 +705,8 @@ Asset Pipeline Refresh (id=098ef4ca90040034e90403c7056dbc60): Total: 3.267 secon
 Reloading assemblies due to reload request.
 Reloading assemblies after forced synchronous recompile.
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.101 seconds
-Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.205 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
@@ -1805,78 +716,68 @@ Native extension for OSXStandalone target not found
 [MODES] Loading mode Default (0) for mode-current-id-ComputerEscape_V2
 [MODES] Loading editor mode Multiplayer Playmode Clone (1) from command line.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.312 seconds
-Domain Reload Profiling: 2415ms
-	BeginReloadAssembly (583ms)
+- Finished resetting the current domain, in  1.392 seconds
+Domain Reload Profiling: 2598ms
+	BeginReloadAssembly (625ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (42ms)
+		DisableScriptedObjects (46ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (402ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (461ms)
-		LoadAssemblies (295ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (439ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (507ms)
+		LoadAssemblies (309ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (246ms)
-			TypeCache.Refresh (16ms)
+		AnalyzeDomain (271ms)
+			TypeCache.Refresh (13ms)
 				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (219ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1312ms)
+			BuildScriptInfoCaches (245ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1392ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (827ms)
+		SetupLoadedEditorAssemblies (858ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (32ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (183ms)
-			ProcessInitializeOnLoadAttributes (381ms)
-			ProcessInitializeOnLoadMethodAttributes (225ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (185ms)
+			ProcessInitializeOnLoadAttributes (333ms)
+			ProcessInitializeOnLoadMethodAttributes (294ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (149ms)
-Asset Pipeline Refresh (id=d9e32fff83c26724a852f7636edf900e): Total: 3.058 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+		AwakeInstancesAfterBackupRestoration (190ms)
+Asset Pipeline Refresh (id=5a87ea8b83971624cad12f3241a9dd53): Total: 3.224 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
 	Summary:
 		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=1941 ms
+		Asset DB Process Time: managed=0 ms, native=2004 ms
 		Asset DB Callback time: managed=0 ms, native=0 ms
-		Scripting: domain reloads=1, domain reload time=1114 ms, compile time=1 ms, other=0 ms
+		Scripting: domain reloads=1, domain reload time=1218 ms, compile time=1 ms, other=0 ms
 		Project Asset Count: scripts=1827, non-scripts=2525
 		Asset File Changes: new=0, changed=0, moved=0, deleted=0
 		Scan Filter Count: 0
 	InvokeCustomDependenciesCallbacks: 0.001ms
 	InvokePackagesCallback: 0.004ms
-	ApplyChangesToAssetFolders: 0.441ms
-	CategorizeAssets: 79.887ms
-	ImportOutOfDateAssets: 1320.760ms (1316.945ms without children)
-		CompileScripts: 1.135ms
-		CollectScriptTypesHashes: 0.682ms
-		ReloadNativeAssets: 1.058ms
+	ApplyChangesToAssetFolders: 0.438ms
+	CategorizeAssets: 73.092ms
+	ImportOutOfDateAssets: 1399.470ms (1396.250ms without children)
+		CompileScripts: 0.963ms
+		CollectScriptTypesHashes: 0.657ms
+		ReloadNativeAssets: 0.793ms
 		UnloadImportedAssets: 0.002ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.625ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.545ms
 		InitializingProgressBar: 0.000ms
 		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
-		OnDemandSchedulerStart: 0.312ms
-	Hotreload: 1.224ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.397ms
+		OnDemandSchedulerStart: 0.259ms
+	Hotreload: 1.376ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.327ms
 	UnloadStreamsBegin: 0.002ms
 	UnloadStreamsEnd: 0.001ms
-	GenerateScriptTypeHashes: 3.291ms
-	Untracked: 1655.308ms
+	GenerateScriptTypeHashes: 2.508ms
+	Untracked: 1749.611ms
 
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
@@ -1888,10 +789,9 @@ Asset Pipeline Refresh (id=d9e32fff83c26724a852f7636edf900e): Total: 3.058 secon
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 Reloading assemblies for play mode.
 Reloading assemblies after forced synchronous recompile.
-[Licensing::Client] Successfully resolved entitlement details
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.941 seconds
-Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.011 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
@@ -1901,100 +801,134 @@ Native extension for OSXStandalone target not found
 [MODES] Loading mode Default (0) for mode-current-id-ComputerEscape_V2
 [MODES] Loading editor mode Multiplayer Playmode Clone (1) from command line.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.155 seconds
-Domain Reload Profiling: 2098ms
-	BeginReloadAssembly (508ms)
+- Finished resetting the current domain, in  1.170 seconds
+Domain Reload Profiling: 2184ms
+	BeginReloadAssembly (541ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (37ms)
+		DisableScriptedObjects (72ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (351ms)
+		CreateAndSetChildDomain (344ms)
 	RebuildCommonClasses (25ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (381ms)
-		LoadAssemblies (240ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (418ms)
+		LoadAssemblies (262ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (205ms)
+		AnalyzeDomain (222ms)
 			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (187ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1155ms)
+			BuildScriptInfoCaches (204ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1171ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (635ms)
+		SetupLoadedEditorAssemblies (693ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
+			InitializePlatformSupportModulesInManaged (32ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (175ms)
-			ProcessInitializeOnLoadAttributes (289ms)
-			ProcessInitializeOnLoadMethodAttributes (136ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (172ms)
+			ProcessInitializeOnLoadAttributes (351ms)
+			ProcessInitializeOnLoadMethodAttributes (132ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (204ms)
-Asset Pipeline Refresh (id=34ebb2d4c48094b419b588d8ea3ddad7): Total: 2.747 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+		AwakeInstancesAfterBackupRestoration (180ms)
+Asset Pipeline Refresh (id=113d4caa8864edc468afc04c17b03295): Total: 2.817 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
 	Summary:
 		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=1778 ms
+		Asset DB Process Time: managed=0 ms, native=1789 ms
 		Asset DB Callback time: managed=0 ms, native=0 ms
-		Scripting: domain reloads=1, domain reload time=967 ms, compile time=1 ms, other=0 ms
+		Scripting: domain reloads=1, domain reload time=1026 ms, compile time=1 ms, other=0 ms
 		Project Asset Count: scripts=1827, non-scripts=2525
 		Asset File Changes: new=0, changed=0, moved=0, deleted=0
 		Scan Filter Count: 0
 	InvokeCustomDependenciesCallbacks: 0.001ms
-	InvokePackagesCallback: 0.005ms
-	ApplyChangesToAssetFolders: 0.384ms
-	CategorizeAssets: 75.862ms
-	ImportOutOfDateAssets: 1163.384ms (1160.239ms without children)
-		CompileScripts: 1.023ms
-		CollectScriptTypesHashes: 0.434ms
-		ReloadNativeAssets: 0.784ms
-		UnloadImportedAssets: 0.001ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.550ms
+	InvokePackagesCallback: 0.004ms
+	ApplyChangesToAssetFolders: 0.387ms
+	CategorizeAssets: 74.551ms
+	ImportOutOfDateAssets: 1178.449ms (1174.855ms without children)
+		CompileScripts: 0.981ms
+		CollectScriptTypesHashes: 0.711ms
+		ReloadNativeAssets: 0.899ms
+		UnloadImportedAssets: 0.002ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.682ms
 		InitializingProgressBar: 0.000ms
 		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
-		OnDemandSchedulerStart: 0.352ms
-	Hotreload: 1.861ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.189ms
-	UnloadStreamsBegin: 0.002ms
+		OnDemandSchedulerStart: 0.319ms
+	Hotreload: 2.030ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.202ms
+	UnloadStreamsBegin: 0.001ms
 	UnloadStreamsEnd: 0.001ms
-	GenerateScriptTypeHashes: 2.866ms
-	Untracked: 1505.076ms
+	GenerateScriptTypeHashes: 2.816ms
+	Untracked: 1561.676ms
 
 Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            4.372 ms
-	Integration:            287.214 ms
-	Integration of assets:  0.004 ms
-	Thread Wait Time:       0.053 ms
-	Total Operation Time:   291.643 ms
-Asset Pipeline Refresh (id=45d5e55238e69524e98e2e21fa8b5bc0): Total: 0.625 seconds - Initiated by RefreshV2(ForceUpdate)
+	Deserialize:            16.749 ms
+	Integration:            333.529 ms
+	Integration of assets:  0.083 ms
+	Thread Wait Time:       -0.005 ms
+	Total Operation Time:   350.355 ms
+Asset Pipeline Refresh (id=a8ad409f371bd6a4ea6cf5a804802f06): Total: 0.626 seconds - Initiated by RefreshV2(ForceUpdate)
 	Summary:
 		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=624 ms
+		Asset DB Process Time: managed=0 ms, native=625 ms
 		Asset DB Callback time: managed=0 ms, native=0 ms
 		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
 		Project Asset Count: scripts=1827, non-scripts=2525
 		Asset File Changes: new=0, changed=0, moved=0, deleted=0
 		Scan Filter Count: 1
 	InvokeCustomDependenciesCallbacks: 0.001ms
-	InvokePackagesCallback: 0.000ms
-	ApplyChangesToAssetFolders: 0.393ms
-	CategorizeAssets: 116.299ms
-	ImportOutOfDateAssets: 2.816ms (0.735ms without children)
-		ReloadNativeAssets: 0.241ms
-		UnloadImportedAssets: 0.004ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.199ms
-		InitializingProgressBar: 0.001ms
+	InvokePackagesCallback: 0.002ms
+	ApplyChangesToAssetFolders: 0.378ms
+	CategorizeAssets: 63.461ms
+	ImportOutOfDateAssets: 1.321ms (0.322ms without children)
+		ReloadNativeAssets: 0.026ms
+		UnloadImportedAssets: 0.001ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.413ms
+		InitializingProgressBar: 0.000ms
 		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
-		OnDemandSchedulerStart: 0.634ms
-	Hotreload: 5.445ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.248ms
-	UnloadStreamsBegin: 0.003ms
-	UnloadStreamsEnd: 0.002ms
-	Untracked: 499.469ms
+		OnDemandSchedulerStart: 0.559ms
+	Hotreload: 1.144ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.316ms
+	UnloadStreamsBegin: 0.074ms
+	UnloadStreamsEnd: 0.001ms
+	Untracked: 558.835ms
 
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
@@ -2082,57 +1016,16 @@ Asset Pipeline Refresh (id=45d5e55238e69524e98e2e21fa8b5bc0): Total: 0.625 secon
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            2.630 ms
-	Integration:            199.008 ms
-	Integration of assets:  0.003 ms
-	Thread Wait Time:       0.009 ms
-	Total Operation Time:   201.649 ms
-Unloading 7988 unused Assets / (3.6 MB). Loaded Objects now: 9773.
-Memory consumption went from 416.0 MB to 412.4 MB.
-Total: 15.804500 ms (FindLiveObjects: 0.933200 ms CreateObjectMapping: 0.536200 ms MarkObjects: 12.139000 ms  DeleteObjects: 2.195200 ms)
+	Deserialize:            2.863 ms
+	Integration:            212.428 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.037 ms
+	Total Operation Time:   215.330 ms
+Unloading 7989 unused Assets / (4.0 MB). Loaded Objects now: 9768.
+Memory consumption went from 379.1 MB to 375.1 MB.
+Total: 17.971300 ms (FindLiveObjects: 1.431400 ms CreateObjectMapping: 0.603200 ms MarkObjects: 13.047600 ms  DeleteObjects: 2.887900 ms)
 
 [Licensing::Client] Successfully resolved entitlement details
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
@@ -2149,8 +1042,8 @@ Total: 15.804500 ms (FindLiveObjects: 0.933200 ms CreateObjectMapping: 0.536200 
 Reloading assemblies for play mode.
 Reloading assemblies after forced synchronous recompile.
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.988 seconds
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.979 seconds
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
@@ -2160,100 +1053,107 @@ Native extension for OSXStandalone target not found
 [MODES] Loading mode Default (0) for mode-current-id-ComputerEscape_V2
 [MODES] Loading editor mode Multiplayer Playmode Clone (1) from command line.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.087 seconds
-Domain Reload Profiling: 2077ms
-	BeginReloadAssembly (527ms)
+- Finished resetting the current domain, in  1.184 seconds
+Domain Reload Profiling: 2164ms
+	BeginReloadAssembly (525ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (25ms)
+		DisableScriptedObjects (26ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (363ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (22ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (362ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
 	LoadAllAssembliesAndSetupDomain (402ms)
-		LoadAssemblies (265ms)
+		LoadAssemblies (251ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (214ms)
-			TypeCache.Refresh (6ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (197ms)
+			BuildScriptInfoCaches (198ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (1087ms)
+	FinalizeReload (1184ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (623ms)
+		SetupLoadedEditorAssemblies (667ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (30ms)
+			InitializePlatformSupportModulesInManaged (31ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (176ms)
-			ProcessInitializeOnLoadAttributes (279ms)
-			ProcessInitializeOnLoadMethodAttributes (132ms)
+			BeforeProcessingInitializeOnLoad (170ms)
+			ProcessInitializeOnLoadAttributes (309ms)
+			ProcessInitializeOnLoadMethodAttributes (151ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (157ms)
-Asset Pipeline Refresh (id=7318ca17b98071e438f171c6a749315e): Total: 2.746 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+		AwakeInstancesAfterBackupRestoration (200ms)
+Asset Pipeline Refresh (id=fb6b37b7d4027c64293d2348036eb431): Total: 2.804 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
 	Summary:
 		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=1740 ms
+		Asset DB Process Time: managed=0 ms, native=1811 ms
 		Asset DB Callback time: managed=0 ms, native=0 ms
-		Scripting: domain reloads=1, domain reload time=1004 ms, compile time=1 ms, other=0 ms
+		Scripting: domain reloads=1, domain reload time=990 ms, compile time=1 ms, other=0 ms
 		Project Asset Count: scripts=1827, non-scripts=2525
 		Asset File Changes: new=0, changed=0, moved=0, deleted=0
 		Scan Filter Count: 0
 	InvokeCustomDependenciesCallbacks: 0.001ms
-	InvokePackagesCallback: 0.005ms
-	ApplyChangesToAssetFolders: 0.516ms
-	CategorizeAssets: 89.098ms
-	ImportOutOfDateAssets: 1095.768ms (1091.744ms without children)
+	InvokePackagesCallback: 0.004ms
+	ApplyChangesToAssetFolders: 0.362ms
+	CategorizeAssets: 83.081ms
+	ImportOutOfDateAssets: 1193.147ms (1189.000ms without children)
 		CompileScripts: 1.385ms
-		CollectScriptTypesHashes: 0.830ms
-		ReloadNativeAssets: 0.833ms
-		UnloadImportedAssets: 0.097ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.581ms
+		CollectScriptTypesHashes: 0.479ms
+		ReloadNativeAssets: 1.234ms
+		UnloadImportedAssets: 0.111ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.609ms
 		InitializingProgressBar: 0.000ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
-		OnDemandSchedulerStart: 0.298ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.329ms
 	Hotreload: 1.992ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.172ms
-	UnloadStreamsBegin: 0.017ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.186ms
+	UnloadStreamsBegin: 0.021ms
 	UnloadStreamsEnd: 0.001ms
-	GenerateScriptTypeHashes: 3.131ms
-	Untracked: 1558.332ms
+	GenerateScriptTypeHashes: 4.150ms
+	Untracked: 1524.803ms
 
 Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            4.132 ms
-	Integration:            277.534 ms
-	Integration of assets:  0.005 ms
-	Thread Wait Time:       0.007 ms
-	Total Operation Time:   281.678 ms
-Asset Pipeline Refresh (id=207159da8806b2944bf9069ec8099bbb): Total: 0.597 seconds - Initiated by RefreshV2(ForceUpdate)
+	Deserialize:            3.817 ms
+	Integration:            290.130 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.005 ms
+	Total Operation Time:   293.955 ms
+Asset Pipeline Refresh (id=add68bb0fa58fbf40b63ec713f02ea0c): Total: 0.670 seconds - Initiated by RefreshV2(ForceUpdate)
 	Summary:
 		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=597 ms
+		Asset DB Process Time: managed=0 ms, native=669 ms
 		Asset DB Callback time: managed=0 ms, native=0 ms
 		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
 		Project Asset Count: scripts=1827, non-scripts=2525
 		Asset File Changes: new=0, changed=0, moved=0, deleted=0
 		Scan Filter Count: 1
 	InvokeCustomDependenciesCallbacks: 0.001ms
-	InvokePackagesCallback: 0.001ms
-	ApplyChangesToAssetFolders: 0.408ms
-	CategorizeAssets: 88.007ms
-	ImportOutOfDateAssets: 2.100ms (0.636ms without children)
-		ReloadNativeAssets: 0.051ms
-		UnloadImportedAssets: 0.003ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.818ms
-		InitializingProgressBar: 0.000ms
+	InvokePackagesCallback: 0.002ms
+	ApplyChangesToAssetFolders: 0.240ms
+	CategorizeAssets: 89.174ms
+	ImportOutOfDateAssets: 1.645ms (0.369ms without children)
+		ReloadNativeAssets: 0.055ms
+		UnloadImportedAssets: 0.002ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.753ms
+		InitializingProgressBar: 0.001ms
 		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
-		OnDemandSchedulerStart: 0.591ms
-	Hotreload: 1.931ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.679ms
+		OnDemandSchedulerStart: 0.465ms
+	Hotreload: 2.257ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.344ms
 	UnloadStreamsBegin: 0.003ms
-	UnloadStreamsEnd: 0.004ms
-	Untracked: 504.307ms
+	UnloadStreamsEnd: 0.002ms
+	Untracked: 576.172ms
 
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
@@ -2511,30 +1411,6 @@ Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 ✅ Player 1 collided with A
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -2551,8 +1427,6 @@ PlayerController:OnTriggerEnter (UnityEngine.Collider) (at D:/UICSem2/GameDevAnd
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 ✅ Player 1 collided with C
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -2564,53 +1438,6 @@ PlayerController:OnTriggerEnter (UnityEngine.Collider) (at D:/UICSem2/GameDevAnd
 
 (Filename: D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/PlayerController.cs Line: 53)
 
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-✅ Player 1 collided with B
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-PlayerController:OnTriggerEnter (UnityEngine.Collider) (at D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/PlayerController.cs:53)
-
-(Filename: D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/PlayerController.cs Line: 53)
-
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
@@ -2675,73 +1502,6 @@ UnityEngine.Canvas:SendWillRenderCanvases ()
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-✅ Player 1 collided with C
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-PlayerController:OnTriggerEnter (UnityEngine.Collider) (at D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/PlayerController.cs:53)
-
-(Filename: D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/PlayerController.cs Line: 53)
-
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-✅ Player 1 collided with D
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-PlayerController:OnTriggerEnter (UnityEngine.Collider) (at D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/PlayerController.cs:53)
-
-(Filename: D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/PlayerController.cs Line: 53)
-
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-✅ Player 1 collided with A
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-PlayerController:OnTriggerEnter (UnityEngine.Collider) (at D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/PlayerController.cs:53)
-
-(Filename: D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/PlayerController.cs Line: 53)
-
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-✅ Player 1 collided with A
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-PlayerController:OnTriggerEnter (UnityEngine.Collider) (at D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/PlayerController.cs:53)
-
-(Filename: D:/UICSem2/GameDevAndDesign/Assignments/Assignment4/cs426_Ragi_Karthik_Asgn4/ComputerEscape_V2/Assets/Scripts/KarthiksScripts/PlayerController.cs Line: 53)
-
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 ✅ Player 1 collided with B
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -2761,222 +1521,17 @@ PlayerController:OnTriggerEnter (UnityEngine.Collider) (at D:/UICSem2/GameDevAnd
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
 Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            3.003 ms
-	Integration:            240.624 ms
-	Integration of assets:  0.002 ms
-	Thread Wait Time:       0.013 ms
-	Total Operation Time:   243.642 ms
-Unloading 7989 unused Assets / (5.5 MB). Loaded Objects now: 9778.
-Memory consumption went from 430.8 MB to 425.3 MB.
-Total: 27.590200 ms (FindLiveObjects: 0.661100 ms CreateObjectMapping: 0.504000 ms MarkObjects: 20.874100 ms  DeleteObjects: 5.549600 ms)
+	Deserialize:            3.337 ms
+	Integration:            208.025 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.055 ms
+	Total Operation Time:   211.419 ms
+Unloading 7989 unused Assets / (5.7 MB). Loaded Objects now: 9778.
+Memory consumption went from 423.1 MB to 417.3 MB.
+Total: 15.003100 ms (FindLiveObjects: 0.960500 ms CreateObjectMapping: 0.605700 ms MarkObjects: 10.882400 ms  DeleteObjects: 2.553400 ms)
 
-[Licensing::Client] Successfully resolved entitlement details
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
-[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
 [LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
