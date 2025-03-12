@@ -488,6 +488,7 @@
 "Assets/Scripts/KarthiksScripts/AnswerDisplay.cs"
 "Assets/Scripts/KarthiksScripts/GameTimerManager.cs"
 "Assets/Scripts/KarthiksScripts/PlayerController.cs"
+"Assets/Scripts/KarthiksScripts/QuitGame.cs"
 "Assets/Scripts/NetworkManagerUI.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"

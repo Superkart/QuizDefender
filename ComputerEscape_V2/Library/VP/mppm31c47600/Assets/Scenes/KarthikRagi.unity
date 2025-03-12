@@ -2730,6 +2730,7 @@ GameObject:
   - component: {fileID: 736847783}
   - component: {fileID: 736847782}
   - component: {fileID: 736847786}
+  - component: {fileID: 736847787}
   m_Layer: 0
   m_Name: BillBoard
   m_TagString: Untagged
@@ -2844,6 +2845,18 @@ MonoBehaviour:
   lockX: 0
   lockY: 0
   lockZ: 0
+--- !u!114 &736847787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736847781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8faeba9d4fb2d4caabe052bccc1095, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &752030324
 GameObject:
   m_ObjectHideFlags: 0
